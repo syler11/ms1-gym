@@ -67,7 +67,7 @@ html, body {
 .social-links {
     height: 132px;
     width: 44px; 
-    border-radius: 5px;
+    border-radius: 12px;
     background-color: #007bff;
     position: absolute;
     right: 0;
@@ -104,4 +104,47 @@ html, body {
 .jumbotron-line {
     width: 30%;
     border: 1px solid #007bff;
+}
+
+/*--------------------------------------------Section*/
+
+
+/*--------------------------------------------Footer*/
+
+.footer-menu-container {
+    background: rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.footer-menu-name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+    color: #fafafa;
+    
+}
+
+.footer-list {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.footer-list-item a {
+    color: #fafafa;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    padding-inline-start: 0;
+    padding: 10px;
+}
+
+.copyright p,
+.registered p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #fafafa;
 }
