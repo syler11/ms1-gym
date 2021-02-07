@@ -115,14 +115,64 @@ html, body {
     justify-content: center;
     align-items: center;
 }
+.first-row,
+.second-row,
+.third-row {
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.feature-one,
+.feature-two,
+.feature-three,
+.feature-four {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background-color: burlywood;
+    color: #fafafa;
+    border: 2px solid #007bff;
+    z-index: 2;
+}
+
+.feature-one,
+.feature-two,
+.feature-three,
+.feature-four h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.feature-one,
+.feature-two,
+.feature-three,
+.feature-four p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    padding: 5px;
+}
+
+.feature-line {
+    width: 30%;
+    border: 3px solid #fafafa;
+    border-radius: 3px;
+}
 
 .circle {
-    height: 80%;
+    height: 50%;
     width: 60%;
     border: 2px solid #007bff;
     border-radius: 200px;
-    background-color: rgba(0,0,0,0.2)
+    background-color: rgba(0,0,0,0.1);
+    position: absolute;
 }
+
+
 
 .transport-type {
     height: 120px;
