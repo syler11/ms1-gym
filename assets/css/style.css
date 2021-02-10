@@ -19,6 +19,7 @@ html, body {
     background-color: #e35b17;
     color: #fafafa;
     padding: 10px 10px;
+    clear: both;
 }
 
 .banner p {
@@ -38,35 +39,54 @@ html, body {
     padding: 0;
 }
 
-.logo {
+.logo h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 60px;
-    padding: 1rem;
-    color: #7d7d7d;
+    padding: 2rem;
+    text-decoration: none;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#e35b17, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.logo a:hover {
+    text-decoration: none;
 }
 
 #navbarNav {
-    justify-content: center;
+    text-align: right;
 }
 
 .nav-link {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 24px;
+    color: #fafafa;
 }
 
-/*Photo by The Lazy Artist Gallery from Pexels*/
-.hero-image {
-    height: 600px;
-    width: 100%;
-}
+/*Photo by The Photo by Jonathan Borba from Pexels from Pexels*/
 
 .heading-container {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.2);
+    height: 80vh;
+    background: url('/assets/images/hero-image.jpg') no-repeat top right scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: relative;
 }
+
+.opaque-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
 
 .logo-container {
     background: transparent;
@@ -107,6 +127,7 @@ html, body {
     right: 0;
     left: 0;
     top: 350px;
+    color: #fafafa;
 }
 
 .jumbotron-line {
@@ -116,6 +137,7 @@ html, body {
 
 .btn-sign-up {
     background-color: #e35b17;
+    color: #fafafa;
 }
 
 /*--------------------------------------------Main*/
@@ -130,6 +152,13 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url('/assets/images/section.jpg') no-repeat top center;
+      -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: relative;
 }
 .first-row,
 .second-row,
@@ -192,7 +221,10 @@ main {
 .transport-type {
     height: 120px;
     padding: 5px 0 5px 10px;
-    
+}
+
+iframe {
+    border: 0;
 }
 
 /*--------------------------------------------Footer*/

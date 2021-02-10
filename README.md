@@ -94,8 +94,7 @@ I came accross with the following bugs and this is what I've done to resolve the
 
 ### **Credits:**
 Content
-* The text for section was taken from X
-Media
+* Logo Linear gradient feature - [Source](https://cssgradient.io/blog/css-gradient-text/)
 * The photos used in this site were obtained from Pexels.com and Icons were obtained from FontAwesome.com
 Acknowledgements
 * I received inspiration for this project from X
