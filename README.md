@@ -1,45 +1,101 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone-1 Project / Forever Fit Gym /
 
-Welcome syler11,
+View the live project [here](http://github.com).
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Local gym in the City of Stirling with growing client base.  
+The gym offers extensive variety of classes and gym space for all age group, gender.   
+The gym is easily accessible and located in the City Centre. 
 
-## Gitpod Reminders
+### **Project Goals:** 
+The project helps me to showcase my knowledge of HTML and CSS and Bootstrap. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### **User Goals:** 
+To find relevant information after arriving from a search or referral link to this website. 
 
-`python3 -m http.server`
+### **User Stories:**
+**First Time Visitor Goals**  
+* As a First Time Visitor, I want to easily understand the ethos of the gym and what they offer me as client.
+* As a First Time Visitor, I want to be able to easily navigate throughout the site to find content relevant to me.
+* As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted.
+* As a First Time Visitor, I want to find information about different membership and pricing. 
+* As a Firt Time Visitor, I want to find out what is demographics of the gym goers.   
 
-A blue button should appear to click: *Make Public*,
+**Returning Visitor Goals**  
+* As a Returning Visitor, I want to find the best way to get in contact with the gym.
+* As a Returning Visitor, I want to find information where where to park if arrving by car.
+* As a Returning Visitor, I want to find the best membership option meet my requirements.  
 
-Another blue button should appear to click: *Open Browser*.
+**Frequent User Goals**  
+* As a Returning Visitor, I want to find information about classes and facilities.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+### **Site Owner Goals:**
+The site owner would like to get more business by exposing the users to this content.   
+Also this surface is retaining existing client providing information and facilities to them. 
 
-Another blue button should appear to click: *Open Browser*.
+### **User Requirements and Expectations:**
+Users have a set standard what they expect to find when they arrive to a website e.g. navigation, contact page with contact details and so on.   
+These needs and requirements were met throughout the website design. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### **Design Choices:**
+Design choices were made to have high usability of website.  
+E.g. Classes were structured in table form as usually expected for such information. 
+Membership choices were categorized to address all age groups.
 
-## Updates Since The Instructional Video
+### **Colors:**
+Two main colors were used throughout the page namely 
+* #e35b17 RGB(227, 91, 23)
+* ##7d7d7d RGB(125, 125, 125)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### **Fonts:**
+My font family choice is “Montserrat” with Sans Serif as a fall back what was taken from [Google Font](https://fonts.google.com/specimen/Montserrat?query=mon&preview.text_type=custom)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### **Structure:**
+The website consists of 5 separated pages namely index.html, about.html, membership.html, classes.html and contact.html.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### **Wireframes:**
+ Wireframing helped me to put together the project without coding a single line.   
+ Once the finished wireframes were printed the coding process was very smooth and straightforward. 
+ Wireframes are saved in the assets/wireframes folder in bmpr and pdf format. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### **Features:**
+In this section, I shall go over the different parts of your project and describe each in a sentence or so.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### **Technologies used:**
+The following languages and framework were used to create this project.  
+* HTML5 – provided the main structure of the website.
+* CSS3 – provided the styling of the website and the overall content.
+* Bootstrap 4.6.1 – provided the responsive structure and some other component such as jumbotron, modal, navbar. 
+* Balsamiq - development tool was used to create the wireframe for the website 
+* Git - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* GitHub - GitHub is used to store the projects code after being pushed from Git.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### **Testing:**
+The main testing took place in Google Chrome and its Developer tool.   
+After the deployment the website was tested on different screen sizes and in different OS systems.
+I have asked my wife and few of my friends to test the website and their feedback was taken on board.
 
---------
+### **Deployment:**
+**GitHub Pages**  
+The project was deployed to GitHub Pages using the following steps...
 
-Happy coding!
+1. Log in to GitHub and locate the GitHub Repository  
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.  
+3. Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+4. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+5. Under "Source", click the dropdown called "None" and select "Master Branch".
+The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+### **Bugs:**
+I came accross with the following bugs and this is what I've done to resolve the issue. 
+
+### **Credits:**
+Content
+* The text for section was taken from X
+Media
+* The photos used in this site were obtained from Pexels.com and Icons were obtained from FontAwesome.com
+Acknowledgements
+* I received inspiration for this project from X
