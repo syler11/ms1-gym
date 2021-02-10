@@ -2,33 +2,40 @@
 
 html, body {
     height:100%;
+     font-family: "Roboto", sans-serif;
+     margin: 0;
+     padding: 0;
 } 
 
 /*--------------------------------------------Colors*/
+
+/* #e35b17 RGB(227, 91, 23) orange red color*/
+/* #7d7d7d RGB(125, 125, 125) light greyish colour*/
 
 /*--------------------------------------------Header*/
 
 .banner {
     height: 40px;
+    background-color: #e35b17;
+    color: #fafafa;
+    padding: 10px 10px;
 }
 
 .banner p {
-    color :#fafafa;
     text-align: center;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-bottom: 5px;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
 } 
 
-.banner h5 {
-    font-family: "Roboto", sans-serif;
-    color: #fafafa;
+.banner-phone {
+    text-align: left; 
+    margin: 0;
+    padding: 0;
+}
+
+.banner-opening {
     text-align: right; 
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
@@ -36,6 +43,7 @@ html, body {
     font-weight: 700;
     font-size: 60px;
     padding: 1rem;
+    color: #7d7d7d;
 }
 
 #navbarNav {
@@ -68,11 +76,11 @@ html, body {
     height: 132px;
     width: 44px; 
     border-radius: 12px;
-    background-color: #007bff;
+    background-color: #e35b17;
     position: absolute;
     right: 0;
     top: 270px;
-    margin: 0;
+    margin-right: 2px;
     padding: 0;
 }
 
@@ -103,10 +111,18 @@ html, body {
 
 .jumbotron-line {
     width: 30%;
-    border: 1px solid #007bff;
+    border: 1px solid #e35b17;
+}
+
+.btn-sign-up {
+    background-color: #e35b17;
 }
 
 /*--------------------------------------------Main*/
+
+main {
+    overflow: hidden;
+}
 
 .reasons-container {
     height: 800px; 
@@ -132,9 +148,9 @@ html, body {
     height: 100%;
     width: 100%;
     border-radius: 15px;
-    background-color: burlywood;
+    background-color: #7d7d7d;
     color: #fafafa;
-    border: 2px solid #007bff;
+    border: 2px solid #e35b17;
     z-index: 2;
 }
 
@@ -166,24 +182,23 @@ html, body {
 .circle {
     height: 50%;
     width: 60%;
-    border: 2px solid #007bff;
+    border: 2px solid #e35b17;
     border-radius: 200px;
     background-color: rgba(0,0,0,0.1);
     position: absolute;
 }
 
 
-
 .transport-type {
     height: 120px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 0 5px 10px;
+    
 }
 
 /*--------------------------------------------Footer*/
 
 .footer-menu-container {
-    background: rgba(0,0,0,0.5);
+    background: #e35b17;
     overflow: hidden;
 }
 
