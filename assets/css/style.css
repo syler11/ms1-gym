@@ -63,6 +63,10 @@ html, body {
     font-size: 22px;
 }
 
+.navbar-toggler { 
+    margin: 0 auto; 
+}
+
 
 
 /*Photo by The Photo by Jonathan Borba from Pexels from Pexels*/
