@@ -95,6 +95,8 @@ I came accross with the following bugs and this is what I've done to resolve the
 ### **Credits:**
 Content
 * Logo Linear gradient feature - [Source](https://cssgradient.io/blog/css-gradient-text/)
-* The photos used in this site were obtained from Pexels.com and Icons were obtained from FontAwesome.com
-Acknowledgements
+* The photos used in this site were obtained from Pexels.com and Icons were obtained from FontAwesome.com  
+Acknowledgements  
+Photo by Cleyder Duque from Pexels quotes-guy.jpg  
+Photo by Cliff Booth from Pexels quotes-lady.jpg
 * I received inspiration for this project from X

@@ -67,8 +67,11 @@
             <p class="lead">Look no further come and try our join for free with full access to all facilities.</p>
             <hr class="jumbotron-line">
             <p>No obligation whatsoever just click on the signup button.</p>
-            <a class="btn btn-sign-up btn-lg" href="#" role="button">Sign Up Today!</a>
+            <button type="button" class="btn btn-sign-up btn-lg" data-toggle="modal" data-target="#signupModal">
+                    Sign Up Today!
+            </button>
         </div>
+        
 
         <!--Social links-->
 
@@ -142,38 +145,40 @@
         
     <!-- Members testimonials --> 
         <section class="quotes-container">
-            <div class="container-fluid no-gutters">
-                <div class=" row quotes-card">
-                    <div class="col-12 col-md-4">
-                        <div class="quotes-img"></div>
-                        <div class="quote-name">
-                            <h3>Jane Doe</h3>
-                        </div>
-                        <div class="quotes-text">
-                            <p>I love this gym!</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="quotes-img"></div>
-                        <div class="quote-name">
-                            <h3>Jane Doe</h3>
-                        </div>
-                        <div class="quotes-text">
-                            <p>I love this gym!</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="quotes-img"></div>
-                        <div class="quote-name">
-                            <h3>Jane Doe</h3>
-                        </div>
-                        <div class="quotes-text">
-                            <p>I love this gym!</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="testimonial-title">
+                <h2>Member Testimonials</h2>
+                <hr class="testimonial-line">
             </div>
-
+            <div class="container-fluid no-gutters">
+                <div class="row quotes-card">
+                    <div class="col-12 col-lg-6 quotes">
+                        <div class="quote-img d-none d-md-block">
+                            <img class="rounded-circle" src="/assets/images/guy.jpg" alt="guy in the gym" height="200px" width="200px">
+                        </div>
+                        <div class="quote-name">
+                            <h4>Darren, 28</h4>
+                            <blockquote>I was one of those people who'd pay for membership, but then never go to the gym. 
+                                That changed for me when I began getting training sessions with my friend. 
+                                The gym itself has a variety of equipment in a clean setting with a diverse membership who always make me feel welcome. 
+                                No more wasted memberships for me!</blockquote>
+                            <cite>Twitter</cite>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 quotes">
+                        <div class="quote-img d-none d-md-block">
+                            <img class="rounded-circle" src="/assets/images/lady.jpg" alt="guy in the gym" height="200px" width="200px">
+                        </div>
+                        <div class="quote-name">
+                            <h4>Jenny, 44</h4>
+                            <blockquote>I was one of those people who'd pay for membership, but then never go to the gym. 
+                                That changed for me when I began getting training sessions with my friend. 
+                                The gym itself has a variety of equipment in a clean setting with a diverse membership who always make me feel welcome. 
+                                No more wasted memberships for me!</blockquote>
+                            <cite>Facebook</cite>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
         </section>
     <!--Location & Transport --> 
         <section>
@@ -243,6 +248,50 @@
             </div>
         </div>
     </footer>
+
+    <!-- Sign Up Modal -->
+   <div class="modal fade" id="signupModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signupModalLabel">Sign Up for a free session!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <form>
+  <div class="form-group">
+    <label for="fullname">Full Name</label>
+    <input type="text" class="form-control" id="fullname" aria-describedby="fullname">
+    <label for="emailaddress">Email address</label>
+    <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
+  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="female" id="female" value="female" checked>
+  <label class="form-check-label" for="female">
+    Female
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="female" id="female" value="female" checked>
+  <label class="form-check-label" for="female">
+    Female
+  </label>
+</div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</div>
     
 </body>
 </html>
