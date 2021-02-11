@@ -143,6 +143,25 @@ html, body {
     color: #fafafa;
 }
 
+.heading-title {
+    width: 100%
+}
+.heading-title h1 {
+    color: #fafafa;
+    font-size: 60px;
+    position: absolute;
+    bottom: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+   
+
+}
+
+
+
 /*--------------------------------------------Main*/
 
 main {
@@ -206,7 +225,7 @@ main {
 
 .transport-type {
     height: 120px;
-    padding: 5px 0 5px 10px;
+    padding: 10px 30px 10px 20px;
 }
 
 iframe {
