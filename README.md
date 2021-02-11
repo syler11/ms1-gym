@@ -1,6 +1,6 @@
 # Milestone-1 Project / Forever Fit Gym /
 
-View the live project [here](http://github.com).
+View the live project [here](https://syler11.github.io/ms1-gym/).
 
 Local gym in the City of Stirling with growing client base.  
 The gym offers extensive variety of classes and gym space for all age group, gender.   
