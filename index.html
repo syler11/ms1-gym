@@ -263,31 +263,42 @@
           <form>
   <div class="form-group">
     <label for="fullname">Full Name</label>
-    <input type="text" class="form-control" id="fullname" aria-describedby="fullname">
+    <input type="text" class="form-control" id="fullname" aria-describedby="fullname" placeholder="Jane Doe">
     <label for="emailaddress">Email address</label>
     <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
   </div>
-  <div class="form-check">
-  <input class="form-check-input" type="radio" name="female" id="female" value="female" checked>
-  <label class="form-check-label" for="female">
-    Female
-  </label>
+  <h6>Gender</h6>
+  <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="female" value="female">
+  <label class="form-check-label" for="female">Female</label>
 </div>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="female" id="female" value="female" checked>
-  <label class="form-check-label" for="female">
-    Female
-  </label>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="male" value="male">
+  <label class="form-check-label" for="male">Male</label>
 </div>
+<div class="form-group">
+    <label for="exampleFormControlSelect1">Select you age</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>under 18</option>
+      <option>18-34</option>
+      <option>35-49</option>
+      <option>50-64</option>
+      <option>over 65</option>
+    </select>
+  </div>
   <div class="form-group">
     <label for="exampleFormControlTextarea1">Example textarea</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
+  <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">By ticking this box I consent to receive promotional offers from Forever Fit Gym.</label>
+</div>
 </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Sign Up</button>
+        <button type="button" class="btn btn-sign-up">Sign Up</button>
       </div>
     </div>
   </div>

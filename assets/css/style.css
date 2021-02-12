@@ -78,7 +78,26 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: relative;
+}
 
+.heading-container-classes {
+    height: 80vh;
+    background: url('/assets/images/classes.jpg') no-repeat right center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.heading-container-membership {
+    height: 80vh;
+    background: url('/assets/images/membership.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     position: relative;
 }
 
@@ -139,6 +158,11 @@ html, body {
 }
 
 .btn-sign-up {
+    background-color: #e35b17;
+    color: #fafafa;
+}
+
+.btn-custom {
     background-color: #e35b17;
     color: #fafafa;
 }

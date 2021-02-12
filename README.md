@@ -98,5 +98,7 @@ Content
 * The photos used in this site were obtained from Pexels.com and Icons were obtained from FontAwesome.com  
 Acknowledgements  
 Photo by Cleyder Duque from Pexels quotes-guy.jpg  
-Photo by Cliff Booth from Pexels quotes-lady.jpg
+Photo by Cliff Booth from Pexels quotes-lady.jpg  
+Photo by Elly Fairytale from Pexels  
+Image by rawpixel.com - Rob  
 * I received inspiration for this project from X
