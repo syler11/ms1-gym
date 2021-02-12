@@ -188,16 +188,16 @@
                 </div>
                 <div class="col-md-12 col-lg-6 transport">
                     <div class="transport-type">
-                        <h3><span><i class="fa fa-car"></i></span> Car</h3>
+                        <h3><span><i class="fa fa-car" style="color:#e35b17;"></i></span> Car</h3>
                         <p>Our gym reserve 10 car park space in the Main street car park which can be used by our customer.
                             Metered car park also avaialbe if there is no space available.</p>
                     </div>
                     <div class="transport-type">
-                        <h3><span><i class="fa fa-bus"></i></span> Bus</h3>
+                        <h3><span><i class="fa fa-bus" style="color:#e35b17;"></i></span> Bus</h3>
                         <p>There are sereral bus stop with few hundred yards radius. To find out more about the bus timetables <a href="#">click here</a>.</p>
                     </div>
                     <div class="transport-type">
-                        <h3><span><i class="fa fa-bicycle"></i></span> Bicycle</h3>
+                        <h3><span><i class="fa fa-bicycle" style="color:#e35b17;"></i></span> Bicycle</h3>
                         <p>Our secured and monitored bicycle storage can be used for free of charge by our customer.</p>
                     </div>
                 </div>
@@ -255,15 +255,22 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="signupModalLabel">Sign Up for a free session!</h5>
+        
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-          <form>
+          <form class="sign-up-form">
+              <p>Please fill up the form below. 
+                  <br>
+                If you have already a date and time in mind please include it in the message box otherwise 
+            we will get in touch with you within 24 hours to book your free session.</p>
   <div class="form-group">
     <label for="fullname">Full Name</label>
     <input type="text" class="form-control" id="fullname" aria-describedby="fullname" placeholder="Jane Doe">
+    <label for="fullname">Telephone Number</label>
+    <input type="text" class="form-control" id="telephone" aria-describedby="telephone">
     <label for="emailaddress">Email address</label>
     <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
   </div>
@@ -277,8 +284,8 @@
   <label class="form-check-label" for="male">Male</label>
 </div>
 <div class="form-group">
-    <label for="exampleFormControlSelect1">Select you age</label>
-    <select class="form-control" id="exampleFormControlSelect1">
+    <label for="agegroup">Select you age</label>
+    <select class="form-control" id="agegroup">
       <option>under 18</option>
       <option>18-34</option>
       <option>35-49</option>
@@ -287,12 +294,12 @@
     </select>
   </div>
   <div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <label for="messagebox">Message (optional)</label>
+    <textarea class="form-control" id="messagebox" rows="3"></textarea>
   </div>
   <div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-  <label class="form-check-label" for="inlineCheckbox1">By ticking this box I consent to receive promotional offers from Forever Fit Gym.</label>
+  <input class="form-check-input" type="checkbox" id="consentbox" value="accepted">
+  <label class="form-check-label" for="consentbox">By ticking this box I consent to receive promotional offers from Forever Fit Gym.</label>
 </div>
 </form>
       </div>
