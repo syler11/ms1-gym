@@ -101,4 +101,8 @@ Photo by Cleyder Duque from Pexels quotes-guy.jpg
 Photo by Cliff Booth from Pexels quotes-lady.jpg  
 Photo by Elly Fairytale from Pexels  
 Image by rawpixel.com - Rob  
+Image by pixabay.com - weights.jpg    
+Photo by William Choquette from Pexels - treadmill.jpg  
+Photo by F-Jord from Pexels - lockerroom.jpg  
+Photo by Polina Tankilevitch from Pexels - nutribar.jpg
 * I received inspiration for this project from X

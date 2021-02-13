@@ -375,16 +375,25 @@ iframe {
     height: 100%;
     margin-bottom: 50px;
     padding: 5px;
+    margin: 40px 0 40px 0;
 }
 
 .about-cards {
     border: 1px solid #7d7d7d;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
+    background-color: rgba(125,125,125,0.3);
+}
+
+.about-cards-holder {
+    border: 1px solid #7d7d7d;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(125,125,125,0.3);
 }
 
 .about-line {
-    width: 200px;
+    width: 50%;
     border: 1px solid #e35b17;
 }
 
