@@ -355,7 +355,7 @@ iframe {
 
 .demographics-heading {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .gender {
@@ -374,22 +374,21 @@ iframe {
     width: 100%;
     height: 100%;
     margin-bottom: 50px;
-    padding: 5px;
-    margin: 40px 0 40px 0;
+    padding: 0;
+    margin: 10px 0 10px 0;
+}
+
+.about-cards-outer {
+    padding: 2px;
 }
 
 .about-cards {
-    border: 1px solid #7d7d7d;
+    border: 1px solid #e35b17;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px 5px 5px 5px;
     background-color: rgba(125,125,125,0.3);
-}
-
-.about-cards-holder {
-    border: 1px solid #7d7d7d;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgba(125,125,125,0.3);
+    margin-top: 2px;
+    overflow: hidden;
 }
 
 .about-line {
@@ -400,6 +399,10 @@ iframe {
 .about-cards h5 {
     text-align: center;
 }
+
+/*--------------------------------------------Membership */
+
+
 
 /*--------------------------------------------Footer*/
 
