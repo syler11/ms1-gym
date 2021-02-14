@@ -166,6 +166,12 @@ html, body {
 .btn-custom {
     background-color: #e35b17;
     color: #fafafa;
+   
+}
+
+.btn-book {
+     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .heading-title {
@@ -405,6 +411,20 @@ iframe {
 /*--------------------------------------------Membership */
 
 /*--------------------------------------------Classes */
+
+.bookings {
+    margin: 20px 0 20px 0;
+    padding: 10px;
+}
+
+.booking-text {
+    padding: 20px;
+}
+
+.classes-description {
+    padding: 20px 10px;
+    box-shadow: 5px 10px 8px #7d7d7d;
+}
 
 .days {
     width: 98%;
