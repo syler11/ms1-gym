@@ -104,5 +104,6 @@ Image by rawpixel.com - Rob
 Image by pixabay.com - weights.jpg    
 Photo by William Choquette from Pexels - treadmill.jpg  
 Photo by F-Jord from Pexels - lockerroom.jpg  
-Photo by Polina Tankilevitch from Pexels - nutribar.jpg
+Photo by Polina Tankilevitch from Pexels - nutribar.jpg  
+Image by rawpixel.com - contact.jpg
 * I received inspiration for this project from X

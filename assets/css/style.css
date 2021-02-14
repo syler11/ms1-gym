@@ -102,6 +102,25 @@ html, body {
     position: relative;
 }
 
+.heading-container-contact {
+    height: 80vh;
+    background: url('/assets/images/contact.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.heading-container-about {
+    height: 80vh;
+    background: url('/assets/images/about.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
 .opaque-overlay {
     height: 100%;
     width: 100%;
