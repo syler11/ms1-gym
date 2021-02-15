@@ -96,14 +96,18 @@ I came accross with the following bugs and this is what I've done to resolve the
 Content
 * Logo Linear gradient feature - [Source](https://cssgradient.io/blog/css-gradient-text/)
 * The photos used in this site were obtained from Pexels.com and Icons were obtained from FontAwesome.com  
-Acknowledgements  
-Photo by Cleyder Duque from Pexels quotes-guy.jpg  
-Photo by Cliff Booth from Pexels quotes-lady.jpg  
-Photo by Elly Fairytale from Pexels  
-Image by rawpixel.com - Rob  
-Image by pixabay.com - weights.jpg    
-Photo by William Choquette from Pexels - treadmill.jpg  
-Photo by F-Jord from Pexels - lockerroom.jpg  
-Photo by Polina Tankilevitch from Pexels - nutribar.jpg  
-Image by rawpixel.com - contact.jpg
+* Acknowledgements  
+* Photo by Cleyder Duque from Pexels quotes-guy.jpg  
+* Photo by Cliff Booth from Pexels quotes-lady.jpg  
+* Photo by Elly Fairytale from Pexels - fitness-class.jpg  
+* Image by rawpixel.com - personal-training.jpg  
+* Image by pixabay.com - weights.jpg    
+* Photo by William Choquette from Pexels - treadmill.jpg  
+* Photo by F-Jord from Pexels - lockerroom.jpg  
+* Photo by Polina Tankilevitch from Pexels - nutribar.jpg  
+* Image by rawpixel.com - contact.jpg  
+* Image by rawpixel.com - about.jpg  
+* Photo by Tim Samuel from Pexels - solo1.jpg  
+* Photo by Mister Mister from Pexels - solo2.jpg  
+* Photo by Timothy from Pexels - stuent1.jpg
 * I received inspiration for this project from X

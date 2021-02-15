@@ -417,6 +417,12 @@ iframe {
     overflow: hidden;
 }
 
+.about-cards img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
 .about-line {
     width: 50%;
     border: 1px solid #e35b17;
@@ -447,7 +453,8 @@ iframe {
     padding: 10px;
     box-shadow: 5px 5px 8px #e35b17;
     background-color: #7d7d7d;
-    
+    display: grid;
+    place-items: center;
 }
 
 .passes h5 {
@@ -456,17 +463,44 @@ iframe {
 }
 
 .monthly-pass {
-    min-height: 100px;
-    margin: 10px;
+    height: 90%;
+    width: 90%;
     padding: 10px;
-    box-shadow: 5px 5px 8px #7d7d7d;
-    background-color:#e35b17;
+    margin: 10px;
+    box-shadow: 5px 5px 8px #e35b17;
+    background-color: #7d7d7d;
+    display: grid;
+    place-items: center;
+    position: relative;
+   
     
 }
 
 .monthly-pass h5 {
     color: #fafafa;
     font-size: 24px;
+     text-align: left;
+}
+
+.monthly-pass-img img {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+.discount {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    color: #fafafa;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: -8%;
+    top: -1%;
+    font-weight: 100;
+    font-size: 12px;
 }
 
 /*--------------------------------------------Classes */
