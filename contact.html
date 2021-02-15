@@ -72,21 +72,21 @@
         <div class="social-links">
             <ul class="social-links-ul">
                 <li class="list-block-item">
-                    <a href="#" target="_blank">
+                    <a href="https://facebook.com" target="_blank">
                         <i class="fa fa-facebook" aria-hidden="true">
                             <span class="sr-only">Facebook</span>
                         </i>
                     </a>
                 </li>
                 <li class="list-block-item">
-                    <a href="#" target="_blank">
+                    <a href="https://youtube.com" target="_blank">
                         <i class="fa fa-youtube" aria-hidden="true">
                             <span class="sr-only">Youtube</span>
                         </i>
                     </a>
                 </li>
                 <li class="list-block-item">
-                    <a href="#" target="_blank">
+                    <a href="https://instagram.com" target="_blank">
                         <i class="fa fa-instagram" aria-hidden="true">
                             <span class="sr-only">Instagram</span>
                         </i>
@@ -113,7 +113,9 @@
                         <div class="form-group">
                             <label for="messagebox">Message</label>
                             <textarea class="form-control" id="messagebox" rows="3"></textarea>
-                            <button type="button" class="btn btn-sign-up">Send Message</button>
+                            <button type="button" class="btn btn-custom" data-toggle="modal" data-target="#exampleModal">
+                            Send Message
+                            </button>
                         </div>
                     </form>
             </div>
@@ -174,7 +176,6 @@
         </section>
     </main>
     <footer>
-    <!-- https://bit.ly/2QVfkiy -->
     <!-- Footer Menu -->    
         <div class="footer-menu-container">
             <div class="row">
@@ -218,6 +219,22 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Email was successfully sent!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-custom" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
     
 </body>
 </html>

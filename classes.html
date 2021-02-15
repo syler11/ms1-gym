@@ -62,7 +62,7 @@
         <div class="heading-title">
                 <h1>Classes</h1>
             </div>
-        </div>
+        </div> 
          
         </div>
  
@@ -72,21 +72,21 @@
         <div class="social-links">
             <ul class="social-links-ul">
                 <li class="list-block-item">
-                    <a href="#" target="_blank">
+                    <a href="https://facebook.com" target="_blank">
                         <i class="fa fa-facebook" aria-hidden="true">
                             <span class="sr-only">Facebook</span>
                         </i>
                     </a>
                 </li>
                 <li class="list-block-item">
-                    <a href="#" target="_blank">
+                    <a href="https://youtube.com" target="_blank">
                         <i class="fa fa-youtube" aria-hidden="true">
                             <span class="sr-only">Youtube</span>
                         </i>
                     </a>
                 </li>
                 <li class="list-block-item">
-                    <a href="#" target="_blank">
+                    <a href="https://instagram.com" target="_blank">
                         <i class="fa fa-instagram" aria-hidden="true">
                             <span class="sr-only">Instagram</span>
                         </i>
@@ -111,7 +111,7 @@
                     <p>All classes must be pre-booked at least 24 hours in advance. We have limited availability which varies from depends of the type of the class. 
                         To book a space please phone us on <span><a href="tel:01764456789">01764 456 789</a></span> or click on the book a class button. Please note 
                         that only existing members with pre-registered email address will be able to book. For a copy of our schedule click on the download sign.
-                        <a href="assets/documents/Class Schedule 2021.pdf" target="_blank"><i class="fa fa-download"style="color:#e35b17;"></i></a></p>
+                        <a href="assets/documents/Class Schedule 2021.pdf" target="_blank"><i class="fa fa-download" style="color:#e35b17;"></i></a></p>
                 </div>
                 <div class="col-6 col-lg-4 col-xl-2">
                     <div class="classes-description"><h5>Zumba</h5>
@@ -383,37 +383,37 @@
         </button>
       </div>
       <div class="modal-body">
-          <form class="book-a-class">
+          <form action="https://formdump.codeinstitute.net" method="POST" class="book-a-class">
   <div class="form-group">
     <label for="fullname">Full Name</label>
-    <input type="text" class="form-control" id="fullname" aria-describedby="fullname" placeholder="Jane Doe">
+    <input type="text" class="form-control" id="fullname" name="fullName" aria-describedby="fullname" placeholder="Jane Doe">
     <label for="fullname">Email Address</label>
-    <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
+    <input type="email" class="form-control" id="emailaddress" name="emailAddress" placeholder="name@example.com">
   </div>
   <h6>Select days</h6>
   <div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="monday" value="monday">
+  <input class="form-check-input" type="checkbox" id="monday" name="monday">
   <label class="form-check-label" for="monday">Monday</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="tuesday" value="tuesday">
+  <input class="form-check-input" type="checkbox" id="tuesday" name="tuesday">
   <label class="form-check-label" for="tuesday">Tuesday</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="wednesday" value="wednesday">
+  <input class="form-check-input" type="checkbox" id="wednesday" name="wednesday">
   <label class="form-check-label" for="wednesday">Wednesday</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="thursday" value="thursday">
+  <input class="form-check-input" type="checkbox" id="thursday" name="thursday">
   <label class="form-check-label" for="thursday">Thursday</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="friday" value="friday">
+  <input class="form-check-input" type="checkbox" id="friday" name="friday">
   <label class="form-check-label" for="friday">Friday</label>
 </div>
 <div class="form-group">
     <label for="agegroup">Select a class</label>
-    <select class="form-control" id="agegroup">
+    <select class="form-control" id="agegroup" name="class">
       <option>Zumba</option>
       <option>Yoga & Pilates</option>
       <option>Kettlebell</option>
@@ -424,14 +424,15 @@
   </div>
   <div class="form-group">
     <label for="messagebox">Message (optional)</label>
-    <textarea class="form-control" id="messagebox" rows="3"></textarea>
+    <textarea class="form-control" id="messagebox" name="message" rows="3"></textarea>
   </div>
+  <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="submit" class="btn btn-sign-up">Book</button>
+      </div>
 </form>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-        <button type="button" class="btn btn-sign-up">Book</button>
-      </div>
+      
     </div>
   </div>
 </div>
