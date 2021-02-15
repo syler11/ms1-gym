@@ -34,6 +34,10 @@ html, body {
     padding: 0;
 }
 
+.banner-phone a {
+    color: #fafafa;
+}
+
 .banner-opening {
     text-align: right; 
     margin: 0;
@@ -461,6 +465,7 @@ iframe {
     color: #fafafa;
     font-size: 24px;    
 }
+
 
 .monthly-pass {
     height: 90%;

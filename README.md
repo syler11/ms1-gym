@@ -109,5 +109,11 @@ Content
 * Image by rawpixel.com - about.jpg  
 * Photo by Tim Samuel from Pexels - solo1.jpg  
 * Photo by Mister Mister from Pexels - solo2.jpg  
-* Photo by Timothy from Pexels - stuent1.jpg
+* Photo by Timothy from Pexels - student1.jpg  
+* Photo by Andrea Piacquadio from Pexels - student2.jpg
+* Photo by rawpixel.com - couple1.jpg
+* Photo by Bruno Bueno from Pexels - couple2.jpg  
+* Photo by Yan Krukov from Pexels - oap1.jpg  
+* Photo by Karolina Grabowska from Pexels - junior1.jpg
+
 * I received inspiration for this project from X
