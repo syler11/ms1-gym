@@ -5,6 +5,7 @@ View the live project [here](https://syler11.github.io/ms1-gym/).
 Local gym in the City of Stirling with growing client base.  
 The gym offers extensive variety of classes and gym space for all age group, gender.   
 The gym is easily accessible and located in the City Centre. 
+The website offers several functionalities to retain exisiting client and gain new ones.
 
 ### **Project Goals:** 
 The project helps me to showcase my knowledge of HTML and CSS and Bootstrap. 
@@ -26,7 +27,7 @@ To find relevant information after arriving from a search or referral link to th
 * As a Returning Visitor, I want to find the best membership option meet my requirements.  
 
 **Frequent User Goals**  
-* As a Returning Visitor, I want to find information about classes and facilities.
+* As a Returning Visitor, I want book my classes using via the website.
 
 
 ### **Site Owner Goals:**
@@ -43,9 +44,14 @@ E.g. Classes were structured in table form as usually expected for such informat
 Membership choices were categorized to address all age groups.
 
 ### **Colors:**
-Two main colors were used throughout the page namely 
+**Background colors**
 * #e35b17 RGB(227, 91, 23)
-* ##7d7d7d RGB(125, 125, 125)
+* ##7d7d7d RGB(125, 125, 125)  
+
+**Font color**
+* #fafafa for dark background  
+* #fff for light backgroud  
+
 
 ### **Fonts:**
 My font family choice is “Montserrat” with Sans Serif as a fall back what was taken from [Google Font](https://fonts.google.com/specimen/Montserrat?query=mon&preview.text_type=custom)
@@ -56,11 +62,33 @@ The website consists of 5 separated pages namely index.html, about.html, members
 
 ### **Wireframes:**
  Wireframing helped me to put together the project without coding a single line.   
- Once the finished wireframes were printed the coding process was very smooth and straightforward. 
- Wireframes are saved in the assets/wireframes folder in bmpr and pdf format. 
+ Once the finished wireframes were printed the coding process was very smooth and straightforward.   
+ Wireframes are available in [bmpr](/assets/wireframes/MS1-GYM.bmpr) and [pdf](/assets/wireframes/MS1-GYM.pdf) format. 
 
 ### **Features:**
-In this section, I shall go over the different parts of your project and describe each in a sentence or so.
+**Index**  
+Main featrues the call to action button to sign up for a free class. The first section will give a short insight what the gym can offer.  
+User testimonials to help first visitor to build trust.  
+Map and transport to help the users to make their first virtual visit. 
+
+**About Us**  
+Short description of the gym and its ethos.  
+Progress bar to showcase of the gym's demographics.
+Cards to emphasize the differet features of the gym.  
+
+**Membership**  
+Pricing description as passes and monthly plans with pictures.
+
+**Classes**  
+Throughout description of the classes, their intensity and shcedule.  
+Book a class modal to make an online booking and downloadable pdf format is also available.
+
+**Contact**  
+Contact from to send direct message from the website.  
+General contact information and opening times.  
+Map and transport option repeated for a second virtual journey. 
+
+
 
 ### **Technologies used:**
 The following languages and framework were used to create this project.  
@@ -75,7 +103,15 @@ The following languages and framework were used to create this project.
 ### **Testing:**
 The main testing took place in Google Chrome and its Developer tool.   
 After the deployment the website was tested on different screen sizes and in different OS systems.
-I have asked my wife and few of my friends to test the website and their feedback was taken on board.
+I have asked my wife and few of my friends to test the website and their feedback was taken on board.  
+
+### **Validation:**  
+Html code was validated by [W3C Markup Validation Service](https://validator.w3.org/)  
+
+![result](/assets/images/HTMLvalidation.png)
+
+Css code was validate by [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)  
+![result](/assets/images/CSSvalidation.png)
 
 ### **Deployment:**
 **GitHub Pages**  
@@ -90,7 +126,12 @@ The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 ### **Bugs:**
-I came accross with the following bugs and this is what I've done to resolve the issue. 
+The menu toggler was one particular area where I spent lot of time to try to find a solution.   
+My primary goal was to give a custom color scheme to the menu items and to the toggler too. 
+In the end I ahve to refer back to the default settings.
+
+Embedding images in div container and make them responsive was very time consuming in the begining  of the task.  
+I researched the topic and read many topics and watched a few youtube tutorials and I was able to resolve the issue fully. 
 
 ### **Credits:**
 Content

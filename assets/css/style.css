@@ -44,14 +44,14 @@ html, body {
     padding: 0;
 }
 
-.logo h1 {
+.logo h2 {
     font-weight: 700;
     font-size: 50px;
     padding: 10px 0 10px 10px;
     text-decoration: none;
     font-size: 50px;
     background: -webkit-linear-gradient(#e35b17, #fff);
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
 }
 
@@ -139,7 +139,7 @@ html, body {
 
 .social-links {
     height: 132px;
-    width: 44px; 
+    width: 40px; 
     border-radius: 12px;
     background-color: #e35b17;
     position: absolute;
@@ -152,14 +152,13 @@ html, body {
 
 .social-links ul {
     list-style-type: none;
-    padding-right: 0;
-    margin: 0;
+    padding: 0;
 }
 
 .list-block-item a i {
     color: #fff;
     font-size: 26px;
-    padding: 10px;
+    padding: 8px;
     z-index: 6;
 }
 
@@ -326,9 +325,12 @@ padding: 20px;
 }
 
 iframe {
+    height: 360px;
+    width: 100%;
     border: 0;
     margin: 0;
 }
+    
 /*--------------------------------------------Contact*/
 
 .contact {
@@ -518,8 +520,10 @@ iframe {
 }
 
 .classes-description {
+    min-height: 270px;
     padding: 20px 10px;
     box-shadow: 5px 10px 8px #7d7d7d;
+
 }
 
 .days {
@@ -556,11 +560,10 @@ iframe {
     margin-right: auto;
 }
 
-.classes-border {
+.classes-border,
+.classes-border-middle {
     border-right: 0.5px solid #e35b17;
     margin-bottom: 3px;
-    
-
 }
 
 
@@ -572,7 +575,7 @@ iframe {
     overflow: hidden;
 }
 
-.footer-menu-name {
+.footer-menu-name{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -586,7 +589,7 @@ iframe {
 .footer-list-membership,
 .footer-list-legal {
     list-style-type: none;
-    padding-inline-start: 0;
+    padding: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     padding: 10px;
@@ -614,3 +617,15 @@ iframe {
     text-transform: uppercase;
     color: #fafafa;
 }
+
+@media screen and (max-width: 992px) {
+  .classes-border-middle {
+    border-right: none;
+}
+  }
+
+  @media screen and (max-width: 1200px) {
+.classes-description {
+    min-height: 200px;
+}
+  }
