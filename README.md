@@ -5,7 +5,7 @@ View the live project [here](https://syler11.github.io/ms1-gym/).
 Local gym in the City of Stirling with growing client base.  
 The gym offers extensive variety of classes and gym space for all age group, gender.   
 The gym is easily accessible and located in the City Centre. 
-The website offers several functionalities to retain exisiting client and gain new ones.
+The website offers several functionalities to retain existing client and gain new ones.
 
 ### **Project Goals:** 
 The project helps me to showcase my knowledge of HTML and CSS and Bootstrap. 
@@ -19,11 +19,11 @@ To find relevant information after arriving from a search or referral link to th
 * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content relevant to me.
 * As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted.
 * As a First Time Visitor, I want to find information about different membership and pricing. 
-* As a Firt Time Visitor, I want to find out what is demographics of the gym goers.   
+* As a First Time Visitor, I want to find out what is demographics of the gym goers.   
 
 **Returning Visitor Goals**  
 * As a Returning Visitor, I want to find the best way to get in contact with the gym.
-* As a Returning Visitor, I want to find information where where to park if arrving by car.
+* As a Returning Visitor, I want to find information where to park if arriving by car.
 * As a Returning Visitor, I want to find the best membership option meet my requirements.  
 
 **Frequent User Goals**  
@@ -40,21 +40,21 @@ These needs and requirements were met throughout the website design.
 
 ### **Design Choices:**
 Design choices were made to have high usability of website.  
-E.g. Classes were structured in table form as usually expected for such information. 
+Classes were structured in table form as usually expected for such information. 
 Membership choices were categorized to address all age groups.
 
 ### **Colors:**
-**Background colors**
+**Background colours**
 * #e35b17 RGB(227, 91, 23)
 * ##7d7d7d RGB(125, 125, 125)  
 
-**Font color**
+**Font colours**
 * #fafafa for dark background  
-* #fff for light backgroud  
+* #fff for light background  
 
 
 ### **Fonts:**
-My font family choice is “Montserrat” with Sans Serif as a fall back what was taken from [Google Font](https://fonts.google.com/specimen/Montserrat?query=mon&preview.text_type=custom)
+My font family choice is “Montserrat” with Sans Serif as a fall back what was taken from [Google Font](https://fonts.google.com/specimen/Montserrat?query=mon&preview.text_type=custom).
 
 ### **Structure:**
 The website consists of 5 separated pages namely index.html, about.html, membership.html, classes.html and contact.html.
@@ -67,24 +67,24 @@ The website consists of 5 separated pages namely index.html, about.html, members
 
 ### **Features:**
 **Index**  
-Main featrues the call to action button to sign up for a free class. The first section will give a short insight what the gym can offer.  
+Main features the call to action button to sign up for a free class. The first section will give a short insight what the gym can offer.  
 User testimonials to help first visitor to build trust.  
 Map and transport to help the users to make their first virtual visit. 
 
 **About Us**  
 Short description of the gym and its ethos.  
 Progress bar to showcase of the gym's demographics.
-Cards to emphasize the differet features of the gym.  
+Cards to emphasize the different features of the gym.  
 
 **Membership**  
 Pricing description as passes and monthly plans with pictures.
 
 **Classes**  
-Throughout description of the classes, their intensity and shcedule.  
+Throughout description of the classes, their intensity and schedule.  
 Book a class modal to make an online booking and downloadable pdf format is also available.
 
 **Contact**  
-Contact from to send direct message from the website.  
+Contact form to send direct message from the website.  
 General contact information and opening times.  
 Map and transport option repeated for a second virtual journey. 
 
@@ -95,7 +95,7 @@ The following languages and framework were used to create this project.
 * HTML5 – provided the main structure of the website.
 * CSS3 – provided the styling of the website and the overall content.
 * Bootstrap 4.6.1 – provided the responsive structure and some other component such as jumbotron, modal, navbar. 
-* Balsamiq - development tool was used to create the wireframe for the website 
+* Balsamiq - development tool was used to create the wireframe for the website. 
 * Git - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * GitHub - GitHub is used to store the projects code after being pushed from Git.
 
@@ -126,18 +126,18 @@ The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 ### **Bugs:**
-The menu toggler was one particular area where I spent lot of time to try to find a solution.   
+The menu toggler was one area where I spent lot of time to try to find a solution.   
 My primary goal was to give a custom color scheme to the menu items and to the toggler too. 
-In the end I ahve to refer back to the default settings.
+In the end I have to refer to the default settings.
 
-Embedding images in div container and make them responsive was very time consuming in the begining  of the task.  
-I researched the topic and read many topics and watched a few youtube tutorials and I was able to resolve the issue fully. 
+Embedding images in div container and make them responsive was very time consuming in the beginning  of the task.  
+I researched the topic and read many topics and watched a few Youtube tutorials and I was able to resolve the issue fully. 
 
 ### **Credits:**
 Content
 * Logo Linear gradient feature - [Source](https://cssgradient.io/blog/css-gradient-text/)
 * The photos used in this site were obtained from Pexels.com and Icons were obtained from FontAwesome.com  
-* Acknowledgements  
+ Acknowledgements  
 * Photo by Cleyder Duque from Pexels quotes-guy.jpg  
 * Photo by Cliff Booth from Pexels quotes-lady.jpg  
 * Photo by Elly Fairytale from Pexels - fitness-class.jpg  

@@ -47,7 +47,8 @@ html, body {
 .logo h2 {
     font-weight: 700;
     font-size: 50px;
-    padding: 10px 0 10px 10px;
+    padding: 10px 0 10px 0px;
+    margin-left: 0;
     text-decoration: none;
     font-size: 50px;
     background: -webkit-linear-gradient(#e35b17, #fff);
@@ -64,12 +65,38 @@ html, body {
     text-align: left;
 }
 
+
+
 .nav-link {
     font-size: 22px;
+    color: #fafafa;
+}
+
+.nav-link:hover {
+    color: #e35b17;
 }
 
 .navbar-toggler { 
     margin: 0 auto; 
+}
+
+
+.custom-icon-bar {
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  padding: 3px;
+  position: relative;
+}
+
+.icon-bar {
+  height: 5px;
+  width: 25px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -170,8 +197,9 @@ html, body {
     position: absolute;
     right: 0;
     left: 0;
-    bottom: 50px;
+    bottom: 60px;
     color: #fafafa;
+    margin-bottom: 40px;
 }
 
 .jumbotron-line {
@@ -187,6 +215,7 @@ html, body {
 .btn-custom {
     background-color: #e35b17;
     color: #fafafa;
+    margin-top: 20px;
    
 }
 
@@ -618,10 +647,30 @@ iframe {
     color: #fafafa;
 }
 
+/*--------------------------------------------Media Queries */
+
+@media screen and (max-width: 768px) {
+  .jumbotron h1 {
+      font-size: 40px;
+  }
+  }
+
 @media screen and (max-width: 992px) {
   .classes-border-middle {
     border-right: none;
 }
+  }
+
+@media screen and (max-width: 992px) {
+  .classes-border-middle {
+    border-right: none;
+}
+
+.navbar-nav {
+    background-color: rgba(125,125,125,0.7);
+    padding-left: 1rem;
+}
+
   }
 
   @media screen and (max-width: 1200px) {
