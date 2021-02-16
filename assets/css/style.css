@@ -51,9 +51,11 @@ html, body {
     margin-left: 0;
     text-decoration: none;
     font-size: 50px;
-    background: -webkit-linear-gradient(#e35b17, #fff);
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent;
+    background: linear-gradient(#e35b17, #fafafa);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: transparent;
+    
 }
 
 .logo a:hover {
@@ -171,7 +173,7 @@ html, body {
     background-color: #e35b17;
     position: absolute;
     right: 0;
-    top: 270px;
+    top: 200px;
     margin-right: 2px;
     padding: 0;
     z-index: 5;
@@ -197,13 +199,14 @@ html, body {
     position: absolute;
     right: 0;
     left: 0;
-    bottom: 60px;
+    top: 40%;
     color: #fafafa;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 .jumbotron-line {
-    width: 400px;
+    width: 40%;
     border: 1px solid #e35b17;
 }
 
@@ -231,7 +234,7 @@ html, body {
     color: #fafafa;
     font-size: 60px;
     position: absolute;
-    bottom: 220px;
+    bottom: 160px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -350,7 +353,8 @@ padding: 20px;
 
 .transport-type {
     height: 120px;
-    padding: 10px 30px 10px 20px;
+    padding: 10px 10px 10px 20px;
+    
 }
 
 iframe {
@@ -649,22 +653,40 @@ iframe {
 
 /*--------------------------------------------Media Queries */
 
+@media screen and (max-width: 576px) {
+    .logo h2{
+        font-size: 40px;
+    }
+
+    .banner h5 {
+        font-size: 16px;
+    }
+
+    .jumbotron {
+        padding: 10px;
+    }
+
+   
+}
+
 @media screen and (max-width: 768px) {
   .jumbotron h1 {
-      font-size: 40px;
+      font-size: 30px;
+      padding: 0 30px;
   }
+
+ .lead {
+        display: none;
+    }
+
   }
 
 @media screen and (max-width: 992px) {
   .classes-border-middle {
     border-right: none;
 }
-  }
 
-@media screen and (max-width: 992px) {
-  .classes-border-middle {
-    border-right: none;
-}
+
 
 .navbar-nav {
     background-color: rgba(125,125,125,0.7);

@@ -126,9 +126,10 @@ The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 ### **Bugs:**
-The menu toggler was one area where I spent lot of time to try to find a solution.   
-My primary goal was to give a custom color scheme to the menu items and to the toggler too. 
-In the end I have to refer to the default settings.
+The menu toggler was one area where I spent lot of time to try to find a solution.     
+My primary goal was to give a custom color scheme to the menu items and to the toggler too.   
+After my second session with Mo (mentor). I decided to do this icon from scratch rather using the Bootstrap predefined icon.  
+With that being done I was able to fully customize all the elements I wanted. 
 
 Embedding images in div container and make them responsive was very time consuming in the beginning  of the task.  
 I researched the topic and read many topics and watched a few Youtube tutorials and I was able to resolve the issue fully. 
@@ -157,4 +158,6 @@ Content
 * Photo by Yan Krukov from Pexels - oap1.jpg  
 * Photo by Karolina Grabowska from Pexels - junior1.jpg
 
-* I received inspiration for this project from X
+I received inspiration for this project from my mentor Mo who didn't let me to go   
+the easy way and as a result I feel lot more confident to solve problems.  
+Thanks Mo

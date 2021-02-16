@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gym</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <title>Forever Fit Gym</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Script is before body closing tag for faster  media load-->
 </head>
+
 <body>
     <header>
         <!-- Banner -->
         <div class="container-fluid no-gutters banner">
             <div class="row">
                 <div class="col-6 col-lg-4">
-                    <h5 class="banner-phone"><i class="fa fa-phone"></i><a href="tel:01764 456 789"> 01764 456 789</a></h5>
+                    <h5 class="banner-phone"><i class="fa fa-phone"></i><a href="tel:01764 456 789"> 01764 456 789</a>
+                    </h5>
                 </div>
                 <div class="col-4 d-none d-lg-block">
                     <p>Join us for free session!</p>
@@ -24,48 +28,58 @@
                 <div class="col-6 col-lg-4">
                     <h5 class="banner-opening">Open daily 6:00 - 20:00</h5>
                 </div>
-                
+
             </div>
         </div>
         <!--Logo, Hero image and Menu items-->
         <div class="heading-container-contact">
             <div class="opaque-overlay">
                 <div class="row logo-container no-gutters">
-            
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand logo" href="index.html"><h2>Forever Fit Gym</h2></a>
-                <button class="navbar-toggler lg-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="active nav-link mr-2" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item mr-2">
-                            <a class="nav-link" href="aboutus.html">About Us</a>
-                        </li>
-                        <li class="nav-item mr-2">
-                             <a class="nav-link" href="membership.html">Membership</a>
-                        </li>
-                        <li class="nav-item mr-2">
-                            <a class="nav-link" href="classes.html">Classes</a>
-                        </li>
-                        <li class="nav-item mr-2">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
+
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand logo" href="index.html">
+                            <h2>Forever Fit Gym</h2>
+                        </a>
+                        <button class="navbar-toggler lg-auto" type="button" data-toggle="collapse"
+                            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+        <!--Customized hamburger icon-->
+                            <div class="custom-icon-bar">
+                                <div class="icon-bar"></div>
+                                <div class="icon-bar"></div>
+                                <div class="icon-bar"></div>
+                            </div>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="active nav-link mr-2" href="index.html">Home <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item mr-2">
+                                    <a class="nav-link" href="aboutus.html">About Us</a>
+                                </li>
+                                <li class="nav-item mr-2">
+                                    <a class="nav-link" href="membership.html">Membership</a>
+                                </li>
+                                <li class="nav-item mr-2">
+                                    <a class="nav-link" href="classes.html">Classes</a>
+                                </li>
+                                <li class="nav-item mr-2">
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
                 </div>
-            </nav>
-           
-        </div>
-        <div class="heading-title">
-                <h1>Contact Us</h1>
+                <div class="heading-title">
+                    <h1>Contact Us</h1>
+                </div>
             </div>
+
         </div>
-         
-        </div>
- 
+
 
         <!--Social links-->
 
@@ -96,7 +110,7 @@
         </div>
 
 
-    </header>  
+    </header>
     <main>
         <section>
             <div class="row contact">
@@ -113,23 +127,25 @@
                         <div class="form-group">
                             <label for="messagebox">Message</label>
                             <textarea class="form-control" id="messagebox" rows="3"></textarea>
-                            <button type="button" class="btn btn-custom" data-toggle="modal" data-target="#exampleModal">
-                            Send Message
+                            <button type="button" class="btn btn-custom" data-toggle="modal"
+                                data-target="#exampleModal">
+                                Send Message
                             </button>
                         </div>
                     </form>
-            </div>
+                </div>
                 <div class="col-6 col-md-6 col-lg-3 hours">
-                    <div class="opening-hours info"><h3>Opening Hours</h3>
-                    <ul>
-                        <li>Monday 6:00 - 20:00</li>
-                        <li>Tuesday 6:00 - 20:00</li>
-                        <li>Wednesday 6:00 - 20:00</li>
-                        <li>Thursday 6:00 - 20:00</li>
-                        <li>Friday 6:00 - 20:00</li>
-                        <li>Saturday 6:00 - 20:00</li>
-                        <li>Sunday 6:00 - 20:00</li>
-                    </ul>
+                    <div class="opening-hours info">
+                        <h3>Opening Hours</h3>
+                        <ul>
+                            <li>Monday 6:00 - 20:00</li>
+                            <li>Tuesday 6:00 - 20:00</li>
+                            <li>Wednesday 6:00 - 20:00</li>
+                            <li>Thursday 6:00 - 20:00</li>
+                            <li>Friday 6:00 - 20:00</li>
+                            <li>Saturday 6:00 - 20:00</li>
+                            <li>Sunday 6:00 - 20:00</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-6 col-md-6 col-lg-3 contact-details">
@@ -151,21 +167,25 @@
             </div>
 
         </section>
-        <!--Location & Transport --> 
+        <!--Location & Transport -->
         <section>
             <div class="row row-map-location">
                 <div class="col-md-12 col-lg-6" id="map-wrapper">
-                    <iframe id="map" src="https://maps.google.com/maps?q=20%20Main%20Street%20Stirling&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="360"></iframe>
+                    <iframe id="map"
+                        src="https://maps.google.com/maps?q=20%20Main%20Street%20Stirling&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        width="100%" height="360"></iframe>
                 </div>
                 <div class="col-md-12 col-lg-6 transport">
                     <div class="transport-type">
                         <h3><span><i class="fa fa-car" style="color:#e35b17;"></i></span> Car</h3>
-                        <p>Our gym reserve 10 car park space in the Main street car park which can be used by our customer.
+                        <p>Our gym reserve 10 car park space in the Main street car park which can be used by our
+                            customer.
                             Metered car park also avaialbe if there is no space available.</p>
                     </div>
                     <div class="transport-type">
                         <h3><span><i class="fa fa-bus" style="color:#e35b17;"></i></span> Bus</h3>
-                        <p>There are sereral bus stop with few hundred yards radius. To find out more about the bus timetables <a href="#">click here</a>.</p>
+                        <p>There are sereral bus stop with few hundred yards radius. To find out more about the bus
+                            timetables <a href="#">click here</a>.</p>
                     </div>
                     <div class="transport-type">
                         <h3><span><i class="fa fa-bicycle" style="color:#e35b17;"></i></span> Bicycle</h3>
@@ -176,7 +196,7 @@
         </section>
     </main>
     <footer>
-    <!-- Footer Menu -->    
+        <!-- Footer Menu -->
         <div class="footer-menu-container">
             <div class="row">
                 <div class="col-6 col-md-4">
@@ -199,16 +219,20 @@
                     </ul>
                 </div>
                 <div class="col-6 col-md-4">
-                   <div class="footer-menu-name">Legal</div>
+                    <div class="footer-menu-name">Legal</div>
                     <ul class="footer-list-legal">
-                        <li class="footer-list-item"><a href="/assets/documents/Cookie Policy.pdf" target="_blanks">Cookie Policy</a></li>
-                        <li class="footer-list-item"><a href="/assets/documents/Privacy Policy.pdf" target="_blanks">Privacy Policy</a></li>
-                        <li class="footer-list-item"><a href="/assets/documents/Terms and Conditions.pdf" target="_blanks">Terms and Conditions</a></li>
-                        <li class="footer-list-item"><a href="/assets/documents/COVID19.pdf" target="_blanks">COVID-19 Protocol</a></li>
+                        <li class="footer-list-item"><a href="/assets/documents/Cookie Policy.pdf"
+                                target="_blanks">Cookie Policy</a></li>
+                        <li class="footer-list-item"><a href="/assets/documents/Privacy Policy.pdf"
+                                target="_blanks">Privacy Policy</a></li>
+                        <li class="footer-list-item"><a href="/assets/documents/Terms and Conditions.pdf"
+                                target="_blanks">Terms and Conditions</a></li>
+                        <li class="footer-list-item"><a href="/assets/documents/COVID19.pdf" target="_blanks">COVID-19
+                                Protocol</a></li>
                     </ul>
                 </div>
             </div>
-    <!-- Copyright and Registered -->
+            <!-- Copyright and Registered -->
             <div class="row">
                 <div class="col-12 col-md-6 copyright">
                     <p>Copyright <span><i class="fa fa-copyright"></i></span> Forever Fit Gym</p>
@@ -221,20 +245,26 @@
     </footer>
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Email was successfully sent!</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-custom" data-dismiss="modal">Close</button>
-      </div>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Email was successfully sent!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-custom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
