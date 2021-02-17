@@ -106,7 +106,7 @@ html, body {
 
 .heading-container {
     height: 80vh;
-    background-image: url('../images/hero-image.jpg'), no-repeat center top scroll;
+    background-image: url('../images/hero-image.jpg') no-repeat center top scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
