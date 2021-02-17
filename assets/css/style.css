@@ -68,7 +68,6 @@ html, body {
 }
 
 
-
 .nav-link {
     font-size: 22px;
     color: #fafafa;
@@ -79,7 +78,7 @@ html, body {
 }
 
 .navbar-toggler { 
-    margin: 0 auto; 
+    margin: 0; 
 }
 
 
@@ -199,7 +198,7 @@ html, body {
     position: absolute;
     right: 0;
     left: 0;
-    top: 40%;
+    bottom: 20%;
     color: #fafafa;
     margin-bottom: 20px;
     padding: 10px;
@@ -364,7 +363,7 @@ iframe {
     margin: 0;
 }
     
-/*--------------------------------------------Contact*/
+/*--------------------------------------------Contact page*/
 
 .contact {
     width: 100%;
@@ -553,7 +552,7 @@ iframe {
 }
 
 .classes-description {
-    min-height: 270px;
+    min-height: 260px;
     padding: 20px 10px;
     box-shadow: 5px 10px 8px #7d7d7d;
 
@@ -653,27 +652,59 @@ iframe {
 
 /*--------------------------------------------Media Queries */
 
+@media screen and (max-width: 414px) {
+     .classes-description {
+    height: 300px;
+    }
+
+
+    .about-cards h5 {
+    font-size: 18px;
+    }
+
+    .transport-type p {
+        font-size: 13px;
+    }
+
+    .testimonial-line {
+        width: 200px;
+    }
+
+    .quotes-container {
+        margin-left: 0;
+    }
+
+    .reasons-container p {
+        font-size: 13px; 
+    }
+}
+
 @media screen and (max-width: 576px) {
     .logo h2{
-        font-size: 40px;
+        font-size: 28px;
     }
 
     .banner h5 {
-        font-size: 16px;
+        font-size: 13px;
+        padding-top: 5px;
     }
 
-    .jumbotron {
-        padding: 10px;
-    }
-
-   
+     
+  
 }
 
 @media screen and (max-width: 768px) {
   .jumbotron h1 {
-      font-size: 30px;
+      font-size: 28px;
       padding: 0 30px;
   }
+
+   
+
+      .heading-title h1 {
+        bottom: 60px;
+    }
+
 
  .lead {
         display: none;
@@ -686,12 +717,29 @@ iframe {
     border-right: none;
 }
 
-
+.navbar {
+    display: block;
+}
 
 .navbar-nav {
-    background-color: rgba(125,125,125,0.7);
+    background-color: #7d7d7d;
     padding-left: 1rem;
+    position: relative;
+    z-index: 1;
+    width: 180px;
 }
+
+    .heading-container-about,
+    .heading-container-membership,
+    .heading-container-classes,
+    .heading-container-contact {
+        min-height: 460px;
+    }
+
+      .jumbotron {
+        padding: 10px;
+        bottom: 5%;
+    }
 
   }
 
@@ -699,4 +747,8 @@ iframe {
 .classes-description {
     min-height: 200px;
 }
+
+ .heading-container {
+        min-height: 650px;
+    }
   }
