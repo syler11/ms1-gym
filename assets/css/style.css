@@ -106,7 +106,7 @@ html, body {
 
 .heading-container {
     height: 80vh;
-    background: url('/assets/images/hero-image.jpg') no-repeat center top scroll;
+    background-image: url('../images/hero-image.jpg'), no-repeat center top scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -116,7 +116,7 @@ html, body {
 
 .heading-container-classes {
     height: 80vh;
-    background: url('/assets/images/classes.jpg') no-repeat right center scroll;
+    background: url('../images/classes.jpg') no-repeat right center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -126,7 +126,7 @@ html, body {
 
 .heading-container-membership {
     height: 80vh;
-    background: url('/assets/images/membership.jpg') no-repeat center center scroll;
+    background: url('../images/membership.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -136,7 +136,7 @@ html, body {
 
 .heading-container-contact {
     height: 80vh;
-    background: url('/assets/images/contact.jpg') no-repeat center center scroll;
+    background: url('../images/contact.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -146,7 +146,7 @@ html, body {
 
 .heading-container-about {
     height: 80vh;
-    background: url('/assets/images/about.jpg') no-repeat center center scroll;
+    background: url('../images/about.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -255,7 +255,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('/assets/images/section.jpg') no-repeat top center fixed;
+    background: url('../images/section.jpg') no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
