@@ -421,9 +421,13 @@ iframe {
 }
 
 .gender {
-    width: 95%;
+    width: 100%;
     margin-top: 10px;
 }  
+
+.gender h4 {
+    padding: 10px;
+}
 
 .demographics-container h4 {
     width: 250px;
