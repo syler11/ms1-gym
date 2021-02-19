@@ -74,7 +74,7 @@
 
                 </div>
                 <div class="heading-title">
-                    <h1>Classes</h1>
+                    <h2>Classes</h2>
                 </div>
             </div>
 
@@ -115,7 +115,7 @@
         <section>
             <div class="row justify-content-center bookings">
                 <div class="col-12 col-lg-6 booking-text">
-                    <h5>What class is the best for me?</h5>
+                    <h3>What class is the best for me?</h3>
                     <p>Pur classes are designed to anyone could find a suitable class to start with. These classes cover
                         fintess levels from absolute beginner of any age
                         to advanced fintess level of high endurance. At your first session we would discuss with you
@@ -123,7 +123,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-lg-6 booking-text">
-                    <h5>How to book classes?</h5>
+                    <h3>How to book classes?</h3>
                     <p>All classes must be pre-booked at least 24 hours in advance. We have limited availability which
                         varies from depends of the type of the class.
                         To book a space please phone us on <span><a href="tel:01764456789">01764 456 789</a></span> or
@@ -131,11 +131,11 @@
                         that only existing members with pre-registered email address will be able to book. For a copy of
                         our schedule click on the download sign.
                         <a href="assets/documents/Class-Schedule-2021.pdf" target="_blank"><i class="fa fa-download"
-                                style="color:#e35b17;"></i></a></p>
+                                style="color:#e35b17;"></i> Download</a></p>
                 </div>
                 <div class="col-6 col-lg-4 col-xl-2">
                     <div class="classes-description">
-                        <h5>Zumba</h5>
+                        <h4>Zumba</h4>
                         <p>Level - Intermediate</p>
                         <p>Cardio - Medium / High</p>
                         <p>Stregth - Easy</p>
@@ -143,7 +143,7 @@
                 </div>
                 <div class="col-6 col-lg-4 col-xl-2">
                     <div class="classes-description">
-                        <h5>Yoga & Pilates</h5>
+                        <h4>Yoga & Pilates</h4>
                         <p>Entry Level - Beginner</p>
                         <p>Cardio - Low / Medium</p>
                         <p>Strength - Easy</p>
@@ -151,7 +151,7 @@
                 </div>
                 <div class="col-6 col-lg-4 col-xl-2">
                     <div class="classes-description">
-                        <h5>Kettlebell</h5>
+                        <h4>Kettlebell</h4>
                         <p>Entry Level - Intermediate</p>
                         <p>Cardio - Medium / High</p>
                         <p>Strength - Intermediate</p>
@@ -159,7 +159,7 @@
                 </div>
                 <div class="col-6 col-lg-4 col-xl-2">
                     <div class="classes-description">
-                        <h5>Crossfit</h5>
+                        <h4>Crossfit</h4>
                         <p>Entry Level - Intermediate</p>
                         <p>Cardio - Maximum</p>
                         <p>Strength - High</p>
@@ -167,7 +167,7 @@
                 </div>
                 <div class="col-6 col-lg-4 col-xl-2">
                     <div class="classes-description">
-                        <h5>BLA</h5>
+                        <h4>BLA</h4>
                         <p>Entry Level - Beginner</p>
                         <p>Cardio - Medium / High</p>
                         <p>Stregth - Easy</p>
@@ -175,7 +175,7 @@
                 </div>
                 <div class="col-6 col-lg-4 col-xl-2">
                     <div class="classes-description">
-                        <h5>Insanity</h5>
+                        <h4>Insanity</h4>
                         <p>Entry Level - Beginner</p>
                         <p>Cardio - Medium / High</p>
                         <p>Strength - Easy</p>
@@ -418,13 +418,14 @@
                     <form action="https://formdump.codeinstitute.net" method="POST" class="book-a-class">
                         <div class="form-group">
                             <label for="fullname">Full Name</label>
-                            <input type="text" class="form-control" id="fullname" name="fullName"
+                            <input type="text" class="form-control" id="fullname" name="fullname"
                                 aria-describedby="fullname" placeholder="Jane Doe">
-                            <label for="fullname">Email Address</label>
-                            <input type="email" class="form-control" id="emailaddress" name="emailAddress"
-                                placeholder="name@example.com">
+                            <label for="emailaddress">Email Address</label>
+                            <input type="email" class="form-control" id="emailaddress" name="emailaddress"
+                                aria-describedby="emailaddress" placeholder="name@example.com">
                         </div>
-                        <h6>Select days</h6>
+                        <fieldset>
+                        <legend>Select days</legend>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="checkbox" id="monday" name="monday">
                             <label class="form-check-label" for="monday">Monday</label>
@@ -445,7 +446,9 @@
                             <input class="form-check-input" type="checkbox" id="friday" name="friday">
                             <label class="form-check-label" for="friday">Friday</label>
                         </div>
+                        </fieldset>
                         <div class="form-group">
+                            <fieldset>
                             <label for="agegroup">Select a class</label>
                             <select class="form-control" id="agegroup" name="class">
                                 <option>Zumba</option>
@@ -455,6 +458,7 @@
                                 <option>BLA</option>
                                 <option>Insanity</option>
                             </select>
+                            </fieldset>
                         </div>
                         <div class="form-group">
                             <label for="messagebox">Message (optional)</label>

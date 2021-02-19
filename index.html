@@ -9,7 +9,7 @@
         type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Script is before body closing tag for faster  media load-->
 </head>
 
@@ -76,7 +76,7 @@
                 <!--Call to action button-->
 
                 <div class="jumbotron">
-                    <h1 class="display-4">Are you looking for a gym to join?</h1>
+                    <h2 class="display-4">Are you looking for a gym to join?</h2>
                     <p class="lead">Look no further come and try our join for free with full access to all facilities.
                     </p>
                     <hr class="jumbotron-line">
@@ -159,15 +159,15 @@
         <section class="quotes-container">
             <!-- Members testimonials -->
             <div class="testimonial-title">
-                <h2>Member Testimonials</h2>
+                <h3>Member Testimonials</h3>
                 <hr class="testimonial-line">
             </div>
             <div class="container-fluid no-gutters">
                 <div class="row quotes-card">
                     <div class="col-12 col-lg-6 quotes">
                         <div class="quote-img d-none d-md-block">
-                            <img class="rounded-circle" src="assets/images/guy.jpg" alt="image of a man"
-                                height="200" width="200">
+                            <img class="rounded-circle" src="assets/images/guy.jpg" alt="man in a gym" height="200"
+                                width="200">
                         </div>
                         <div class="quote-name">
                             <h4>Darren, 28</h4>
@@ -182,8 +182,8 @@
                     </div>
                     <div class="col-12 col-lg-6 quotes">
                         <div class="quote-img d-none d-md-block">
-                            <img class="rounded-circle" src="assets/images/lady.jpg" alt="image of a woman"
-                                height="200" width="200">
+                            <img class="rounded-circle" src="assets/images/lady.jpg" alt="woman in a gym" height="200"
+                                width="200">
                         </div>
                         <div class="quote-name">
                             <h4>Jenny, 44</h4>
@@ -215,7 +215,7 @@
                     <div class="transport-type">
                         <h3><span><i class="fa fa-bus" style="color:#e35b17;"></i></span> Bus</h3>
                         <p>There are sereral bus stop with few hundred yards radius. To find out more about the bus
-                            timetables <a href="#">click here</a>.</p>
+                            timetables. Access timetables<a href="https://bustimes.org/localities/st-ninians" target="blank"> here</a>.</p>
                     </div>
                     <div class="transport-type">
                         <h3><span><i class="fa fa-bicycle" style="color:#e35b17;"></i></span> Bicycle</h3>
@@ -293,34 +293,40 @@
                             If you have already a date and time in mind please include it in the message box otherwise
                             we will get in touch with you within 24 hours to book your free session.</p>
                         <div class="form-group">
-                            <label for="fullname">Full Name</label>
-                            <input type="text" class="form-control" id="fullname" name="fullName"
-                                aria-describedby="fullname" placeholder="Jane Doe">
-                            <label for="fullname">Telephone Number</label>
-                            <input type="text" class="form-control" id="telephone" name="telephone"
-                                aria-describedby="telephone">
-                            <label for="emailaddress">Email address</label>
-                            <input type="email" class="form-control" id="emailaddress" name="emailAddress"
-                                placeholder="name@example.com">
+                            <fieldset>
+                                <label for="fullname">Full Name</label>
+                                <input type="text" class="form-control" id="fullname" name="fullname"
+                                    aria-describedby="fullname" placeholder="Jane Doe">
+                                <label for="fullname">Telephone Number</label>
+                                <input type="text" class="form-control" id="telephone" name="telephone"
+                                    aria-describedby="telephone">
+                                <label for="emailaddress">Email address</label>
+                                <input type="email" class="form-control" id="emailaddress" name="emailaddress"
+                                    aria-describedby="emailaddress" placeholder="name@example.com">
+                            </fieldset>
                         </div>
-                        <h6>Gender</h6>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="gender" id="female" value="female">
-                            <label class="form-check-label" for="female">Female</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="gender" id="male" value="male">
-                            <label class="form-check-label" for="male">Male</label>
-                        </div>
+                        <fieldset>
+                            <h6>Gender</h6>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                                <label class="form-check-label" for="female">Female</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                                <label class="form-check-label" for="male">Male</label>
+                            </div>
+                        </fieldset>
                         <div class="form-group">
-                            <label for="agegroup">Select you age</label>
-                            <select name="age" class="form-control" id="agegroup">
-                                <option>under 18</option>
-                                <option>18-34</option>
-                                <option>35-49</option>
-                                <option>50-64</option>
-                                <option>over 65</option>
-                            </select>
+                            <fieldset>
+                                <label for="agegroup">Select you age</label>
+                                <select name="age" class="form-control" id="agegroup">
+                                    <option>under 18</option>
+                                    <option>18-34</option>
+                                    <option>35-49</option>
+                                    <option>50-64</option>
+                                    <option>over 65</option>
+                                </select>
+                            </fieldset>
                         </div>
                         <div class="form-group">
                             <label for="messagebox">Message (optional)</label>
