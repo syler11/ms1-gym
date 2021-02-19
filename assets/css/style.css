@@ -245,10 +245,23 @@ html, body {
     margin-bottom: 40px;
 }
 
+.main-heading-title {
+    height: 100%;
+    width: 50%;
+    display: grid;
+    place-items: center;
+    color: #fafafa;
+    font-size: 60px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 .heading-title {
     width: 100%
 }
-.heading-title h2 {
+.heading-title h1 {
     color: #fafafa;
     font-size: 60px;
     position: absolute;
@@ -501,7 +514,7 @@ iframe {
     margin: 20px 10px;
     padding: 10px;
 }
-.passes-heading h5{
+.passes-heading h3 {
     font-size: 30px;
     font-weight: 500;
     margin-top: 25px;
@@ -517,7 +530,7 @@ iframe {
     place-items: center;
 }
 
-.passes h5 {
+.passes h4 {
     color: #fafafa;
     font-size: 24px;    
 }
@@ -537,7 +550,7 @@ iframe {
     
 }
 
-.monthly-pass h5 {
+.monthly-pass h4 {
     color: #fafafa;
     font-size: 24px;
      text-align: left;
@@ -711,11 +724,11 @@ iframe {
 }
 
 @media screen and (max-width: 576px) {
-    .logo h2{
+    .logo h1{
         font-size: 28px;
     }
 
-    .banner h4 {
+    .banner h5 {
         font-size: 13px;
         padding-top: 5px;
     }
