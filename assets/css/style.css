@@ -226,7 +226,7 @@ html, body {
 
 .btn-sign-up {
     background-color: #c85014;
-    color: #fafafa;
+    color: #fff;
 }
 
 .btn-sign-up:hover {
@@ -268,7 +268,7 @@ html, body {
 }
 
 .heading-title h1 {
-    color: #fafafa;
+    color: #fff;
     font-size: 60px;
     position: absolute;
     bottom: 160px;
@@ -307,7 +307,7 @@ main {
     width: 100%;
     border-radius: 15px;
     background-color: #757575;
-    color: #fafafa;
+    color: #fff;
     border: 2px solid #c85014;
     z-index: 2;
     padding: 10px;
@@ -507,7 +507,7 @@ iframe {
 }
 
 .passes h4 {
-    color: #fafafa;
+    color: #fff;
     font-size: 24px;    
 }
 
@@ -527,7 +527,7 @@ iframe {
 }
 
 .monthly-pass h4 {
-    color: #fafafa;
+    color: #fff;
     font-size: 24px;
      text-align: left;
 }
@@ -543,7 +543,7 @@ iframe {
     width: 45px;
     border-radius: 50%;
     color: #fff;
-    background-color: red;
+    background-color: #eb0000;
     display: flex;
     align-items: center;
     position: absolute;
@@ -574,7 +574,7 @@ iframe {
 .days {
     width: 98%;
     height: 100%;
-    color: #fafafa;
+    color: #fff;
     font-weight: 500;
     border: 1px solid #c85014;
     background-color: rgba(117,117,117,0.7);
@@ -586,7 +586,7 @@ iframe {
 .weekend {
     width: 100%;
     height: 100%;
-    color: #fafafa;
+    color: #fff;
     font-weight: 500;
     border: 1px solid #c85014;
     background-color: rgba(117,117,117,0.7);
