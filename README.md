@@ -1,5 +1,7 @@
 # Milestone-1 Project / Forever Fit Gym /
 
+![page mockup](/assets/images/mockup-ffgym.png)
+
 View the live project [here](https://syler11.github.io/ms1-gym/).
 
 Local gym in the City of Stirling with growing client base.  
@@ -45,7 +47,7 @@ Membership choices were categorized to address all age groups.
 
 ### **Colors:**
 **Background colours**
-* #e35b17 RGB(227, 91, 23)
+* #e35b17 RGB(200, 80, 20)
 * ##7d7d7d RGB(117, 117, 117)  
 
 **Font colours**  
