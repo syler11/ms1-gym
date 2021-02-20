@@ -46,11 +46,10 @@ Membership choices were categorized to address all age groups.
 ### **Colors:**
 **Background colours**
 * #e35b17 RGB(227, 91, 23)
-* ##7d7d7d RGB(125, 125, 125)  
+* ##7d7d7d RGB(117, 117, 117)  
 
-**Font colours**
-* #fafafa for dark background  
-* #fff for light background  
+**Font colours**  
+* #fff as the default text color 
 
 
 ### **Fonts:**
@@ -67,9 +66,12 @@ The website consists of 5 separated pages namely index.html, about.html, members
 
 ### **Features:**
 **Index**  
-Main features the call to action button to sign up for a free class. The first section will give a short insight what the gym can offer.  
+The user by clicking on the Sign Up button is able to fill up a from and send it to the gym.  
+With the sent information the gym would be able to reply and discuss a free introductory session with the new potential client.  
+The first section will give a short insight what the gym can offer.  
 User testimonials to help first visitor to build trust.  
 Map and transport to help the users to make their first virtual visit. 
+The local bus times are also linked for better user experience. 
 
 **About Us**  
 Short description of the gym and its ethos.  
@@ -78,15 +80,18 @@ Cards to emphasize the different features of the gym.
 
 **Membership**  
 Pricing description as passes and monthly plans with pictures.
+By hovering over the price tags the box shadow would increase. 
 
 **Classes**  
 Throughout description of the classes, their intensity and schedule.  
+By hovering over the class description the box shadow would increase. 
 Book a class modal to make an online booking and downloadable pdf format is also available.
 
 **Contact**  
 Contact form to send direct message from the website.  
 General contact information and opening times.  
-Map and transport option repeated for a second virtual journey. 
+Map and transport option repeated for a second virtual journey.  
+The local bus times are also linked for better user experience. 
 
 
 
@@ -101,7 +106,8 @@ The following languages and framework were used to create this project.
 
 
 ### **Testing:**
-The main testing took place in Google Chrome and its Developer tool.   
+The main testing took place in Google Chrome and its Developer tool using the Network and Lighhouse options to  
+identify any errors or opportunities to improve performance.    
 After the deployment the website was tested on different screen sizes and in different OS systems.
 I have asked my wife and few of my friends to test the website and their feedback was taken on board.  
 
@@ -112,6 +118,13 @@ Html code was validated by [W3C Markup Validation Service](https://validator.w3.
 
 Css code was validate by [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)  
 ![result](/assets/images/CSSvalidation.png)
+
+The website accessibility was checked with [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/).  
+As a result I had to changed the font and background colors to achieve higher contrast to eliminate contast errors. 
+The original orange color (#357464) was changed to (#c85410), grey color (#7d7d7d) was changed to (#757575) and 
+the font color (#fafafa) was changed to (#fff) for better contrast ratio.
+
+Conclusion: In the future the colors will be checked before the coding would even start. 
 
 ### **Deployment:**
 **GitHub Pages**  
@@ -124,6 +137,14 @@ The project was deployed to GitHub Pages using the following steps...
 5. Under "Source", click the dropdown called "None" and select "Master Branch".
 The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+**Browser preview**
+Browser preview was used between commits using the following steps...
+
+1. Open terminal in GitPod 
+2. With Ctrl+C the cursor was prompt
+3. python3 -m http.server command line was used to open up a private port
+4. Once the port was activated the page was opened by clicking on the Open Browser tab
 
 ### **Bugs:**
 The menu toggler was one area where I spent lot of time to try to find a solution.     
