@@ -10,17 +10,19 @@ html, body {
 
 /*--------------------------------------------Colors*/
 
-/* #e35b17 RGB(227, 91, 23) orange red color*/
-/* #7d7d7d RGB(125, 125, 125) light greyish colour*/
+/* #c85014 RGB(220, 80, 20) medium orange color*/
+/* #757575 RGB(117, 117, 117) medium greyish colour*/
+/* #fff RGB(117, 117, 117) main font color*/
 
 /*--------------------------------------------Header*/
 
+/*--------------------------------------------Banner*/
+
 .banner {
     height: 40px;
-    background-color: #e35b17;
-    color: #fafafa;
+    background-color: #c85014;
+    color: #fff;
     padding: 10px 10px;
-    clear: both;
 }
 
 .banner p {
@@ -35,7 +37,7 @@ html, body {
 }
 
 .banner-phone a {
-    color: #fafafa;
+    color: #fff;
 }
 
 .banner-opening {
@@ -44,6 +46,8 @@ html, body {
     padding: 0;
 }
 
+/*--------------------------------------------Logo */
+
 .logo h2 {
     font-weight: 700;
     font-size: 50px;
@@ -51,7 +55,7 @@ html, body {
     margin-left: 0;
     text-decoration: none;
     font-size: 50px;
-    background: linear-gradient(#e35b17, #fafafa);
+    background: linear-gradient(#c85014, #fff);
     background-clip: border-box;
     -webkit-background-clip: text;
     color: transparent;
@@ -62,6 +66,7 @@ html, body {
     text-decoration: none;
 }
 
+/*--------------------------------------------Navbar */
 
 .navbar {
     width: 100%;
@@ -74,11 +79,11 @@ html, body {
 
 .nav-link {
     font-size: 22px;
-    color: #fafafa;
+    color: #fff;
 }
 
 .nav-link:hover {
-    color: #e35b17;
+    color: #c85014;
 }
 
 .navbar-toggler { 
@@ -98,7 +103,7 @@ html, body {
 .icon-bar {
   height: 5px;
   width: 25px;
-  background-color: #fafafa;
+  background-color: #fff;
   border-radius: 5px;
   margin-top: 3px;
   margin-left: auto;
@@ -106,9 +111,7 @@ html, body {
   display: block;
 }
 
-
-
-/*Photo by The Photo by Jonathan Borba from Pexels from Pexels*/
+/*--------------------------------------------Heading backgrounds*/
 
 .heading-container {
     height: 80vh;
@@ -167,16 +170,13 @@ html, body {
     position: relative;
 }
 
-
-.logo-container {
-    background: transparent;
-}
+/*--------------------------------------------Social links*/
 
 .social-links {
     height: 132px;
     width: 40px; 
     border-radius: 12px;
-    background-color: #e35b17;
+    background-color: #c85014;
     position: absolute;
     right: 0;
     top: 200px;
@@ -201,6 +201,8 @@ html, body {
     color: #000;
 }
 
+/*--------------------------------------------Jumbotron*/
+
 .jumbotron {
     display: block;
     text-align: center;
@@ -210,34 +212,36 @@ html, body {
     right: 0;
     left: 0;
     bottom: 20%;
-    color: #fafafa;
-    margin-bottom: 20px;
+    color: #fff;
+    margin-bottom: 10px;
     padding: 10px;
 }
 
 .jumbotron-line {
     width: 40%;
-    border: 1px solid #e35b17;
+    border: 1px solid #c85014;
 }
 
+/*--------------------------------------------Buttons*/
+
 .btn-sign-up {
-    background-color: #e35b17;
+    background-color: #c85014;
     color: #fafafa;
 }
 
 .btn-sign-up:hover {
-    color: #e35b17;
+    color: #c85014;
     background-color: #000;
 }
 
 .btn-custom {
-    background-color: #e35b17;
-    color: #fafafa;
+    background-color: #c85014;
+    color: #fff;
     margin-top: 20px;
 }
 
 .btn-custom:hover {
-    color: #e35b17;
+    color: #c85014;
     background-color: #000;
 }
 
@@ -246,14 +250,16 @@ html, body {
     margin-bottom: 40px;
 }
 
+/*--------------------------------------------Page headings*/
+
 .main-heading-title {
     min-height: 170px;
     width: 100%;
     display: grid;
     place-items: center;
-    color: #fafafa;
+    color: #fff;
     font-size: 60px;
-    background-color: rgba(227, 91, 23,0.9);
+    background-color: #c85014;
     border-radius: 100px;
 }
 
@@ -275,7 +281,7 @@ html, body {
 
 
 
-/*--------------------------------------------Main*/
+/*--------------------------------------------Index.html section*/
 
 main {
     overflow: hidden;
@@ -300,9 +306,9 @@ main {
     min-height: 170px;
     width: 100%;
     border-radius: 15px;
-    background-color: #7d7d7d;
+    background-color: #757575;
     color: #fafafa;
-    border: 2px solid #e35b17;
+    border: 2px solid #c85014;
     z-index: 2;
     padding: 10px;
     margin: 10px;
@@ -322,14 +328,14 @@ main {
 
 .feature-line {
     width: 30%;
-    border: 3px solid #fafafa;
+    border: 3px solid #fff;
     border-radius: 3px;
 }
 
 .circle {
     height: 55%;
     width: 40%;
-    border: 2px solid #e35b17;
+    border: 2px solid #c85014;
     border-radius: 250px;
     background-color: rgba(0,0,0,0.1);
     position: absolute;
@@ -348,7 +354,7 @@ main {
 
 .testimonial-line {
     width: 340px;
-    border: 1px solid #e35b17;
+    border: 1px solid #c85014;
 }
 
 .quotes-container {
@@ -393,40 +399,6 @@ iframe {
     width: 100%;
     border: 0;
     margin: 0;
-}
-    
-/*--------------------------------------------Contact page*/
-
-.contact-label {
-    padding-top: 10px;
-}
-
-.contact {
-    width: 100%;
-    height: 100%;
-    margin: 20px 10px;
-    padding: 10px;
-}
-
-.info {
-    text-align: left;
-}
-
-.info ul li {
-    list-style-type: none;
-    margin-left: -40px;
-    padding-top: 10px;
-}
-
-.info {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    
-}
-
-.fa-map-pin {
-    color: #e35b17;
 }
 
 /*--------------------------------------------About Us*/
@@ -485,23 +457,24 @@ iframe {
 }
 
 .about-cards {
-    border: 1px solid #e35b17;
+    height: 100%;
+    border: 1px solid #c85014;
     border-radius: 10px;
     padding: 20px 5px 5px 5px;
-    background-color: rgba(125,125,125,0.3);
+    background-color: rgba(117,117,117,0.3);
     margin-top: 2px;
     overflow: hidden;
 }
 
 .about-cards img {
     width: 100%;
-    height: auto;
+    height: 100;
     padding: 10px;
 }
 
 .about-line {
     width: 50%;
-    border: 1px solid #e35b17;
+    border: 1px solid #c85014;
 }
 
 .about-cards h5 {
@@ -509,7 +482,7 @@ iframe {
 }
 
 
-/*--------------------------------------------Membership */
+/*--------------------------------------------Membership.html */
 
 .membership-container {
     width: 100%;
@@ -527,8 +500,8 @@ iframe {
     min-height: 100px;
     margin: 10px;
     padding: 10px;
-    box-shadow: 5px 5px 8px #e35b17;
-    background-color: #7d7d7d;
+    box-shadow: 5px 5px 8px #c85014;
+    background-color: #757575;
     display: grid;
     place-items: center;
 }
@@ -544,8 +517,8 @@ iframe {
     width: 90%;
     padding: 10px;
     margin: 10px;
-    box-shadow: 5px 5px 8px #e35b17;
-    background-color: #7d7d7d;
+    box-shadow: 5px 5px 8px #c85014;
+    background-color: #757575;
     display: grid;
     place-items: center;
     position: relative;
@@ -569,7 +542,7 @@ iframe {
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    color: #fafafa;
+    color: #fff;
     background-color: red;
     display: flex;
     align-items: center;
@@ -580,7 +553,7 @@ iframe {
     font-size: 12px;
 }
 
-/*--------------------------------------------Classes */
+/*--------------------------------------------Classes.html */
 
 .bookings {
     margin: 20px 0 20px 0;
@@ -594,7 +567,7 @@ iframe {
 .classes-description {
     min-height: 260px;
     padding: 20px 10px;
-    box-shadow: 5px 10px 8px #7d7d7d;
+    box-shadow: 5px 10px 8px #757575;
 
 }
 
@@ -603,8 +576,8 @@ iframe {
     height: 100%;
     color: #fafafa;
     font-weight: 500;
-    border: 1px solid #e35b17;
-    background-color: rgba(125,125,125,0.7);
+    border: 1px solid #c85014;
+    background-color: rgba(117,117,117,0.7);
     padding-top: 15px;
     border-bottom: none;
     margin-top: 10px;
@@ -615,8 +588,8 @@ iframe {
     height: 100%;
     color: #fafafa;
     font-weight: 500;
-    border: 1px solid #e35b17;
-    background-color: rgba(125,125,125,0.7);
+    border: 1px solid #c85014;
+    background-color: rgba(117,117,117,0.7);
     padding-top: 5px;
     margin-bottom: 10px;
 }
@@ -624,8 +597,8 @@ iframe {
 .classes {
     width: 98%;
     height: 100%;
-    border: 1px solid #e35b17;
-    background-color: rgba(125,125,125,0.3);
+    border: 1px solid #c85014;
+    background-color: rgba(117,117,117,0.7);
     margin-bottom: 10px;
     padding-top: 10px;
     margin-left: auto;
@@ -634,16 +607,49 @@ iframe {
 
 .classes-border,
 .classes-border-middle {
-    border-right: 0.5px solid #e35b17;
+    border-right: 0.5px solid #c85014;
     margin-bottom: 3px;
 }
 
+/*--------------------------------------------Contact.html page*/
+
+.contact-label {
+    padding-top: 10px;
+}
+
+.contact {
+    width: 100%;
+    height: 100%;
+    margin: 20px 10px;
+    padding: 10px;
+}
+
+.info {
+    text-align: left;
+}
+
+.info ul li {
+    list-style-type: none;
+    margin-left: -40px;
+    padding-top: 10px;
+}
+
+.info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    
+}
+
+.fa-map-pin {
+    color: #c85014;
+}
 
 
 /*--------------------------------------------Footer*/
 
 .footer-menu-container {
-    background: #e35b17;
+    background: #c85014;
     overflow: hidden;
 }
 
@@ -671,7 +677,7 @@ iframe {
 .footer-list-menu a,
 .footer-list-membership a,
 .footer-list-legal a {
-    color: #fafafa;
+    color: #fff;
 }
 
 .footer-list-menu a:hover,
@@ -694,7 +700,7 @@ iframe {
     text-align: center;
     padding: 10px;
     text-transform: uppercase;
-    color: #fafafa;
+    color: #fff;
 }
 
 /*--------------------------------------------Media Queries */
@@ -769,11 +775,11 @@ iframe {
 }
 
 .navbar-nav {
-    background-color: rgba(125,125,125,0.8);
-    padding-left: 1rem;
+    background-color: rgba(117,117,117,0.7);
     position: relative;
     z-index: 1;
     width: 180px;
+    padding-left: 10px;
 }
 
     .heading-container-about,
