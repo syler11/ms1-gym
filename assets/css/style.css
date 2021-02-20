@@ -8,6 +8,10 @@ html, body {
     padding: 0;
 } 
 
+a {
+    color: #0071eb;
+}
+
 /*--------------------------------------------Colors*/
 
 /* #c85014 RGB(220, 80, 20) medium orange color*/
@@ -444,6 +448,12 @@ iframe {
     text-align: center;
 }
 
+.progress-bar {
+    font-weight: 500;
+    font-size: 14px;
+    text-shadow:  1px 1px 10px #000;
+}
+
 .about-cards-container {
     width: 100%;
     height: 100%;
@@ -506,6 +516,10 @@ iframe {
     place-items: center;
 }
 
+.passes:hover {
+    box-shadow: 10px 10px 16px #c85014;
+}
+
 .passes h4 {
     color: #fff;
     font-size: 24px;    
@@ -522,8 +536,10 @@ iframe {
     display: grid;
     place-items: center;
     position: relative;
-   
-    
+}
+
+.monthly-pass:hover {
+    box-shadow: 10px 10px 16px #c85014;
 }
 
 .monthly-pass h4 {
@@ -549,7 +565,7 @@ iframe {
     position: absolute;
     right: -8%;
     top: -1%;
-    font-weight: 100;
+    font-weight: 500;
     font-size: 12px;
 }
 
@@ -568,7 +584,17 @@ iframe {
     min-height: 260px;
     padding: 20px 10px;
     box-shadow: 5px 10px 8px #757575;
+}
 
+.classes-description:hover {
+    box-shadow: 15px 20px 16px #757575;
+}
+
+.classes-title {
+    font-size: 36px;
+    letter-spacing: 2px;
+     padding: 20px;
+     margin-bottom: 25px;
 }
 
 .days {
@@ -582,6 +608,7 @@ iframe {
     border-bottom: none;
     margin-top: 10px;
 }
+
 
 .weekend {
     width: 100%;
@@ -597,6 +624,7 @@ iframe {
 .classes {
     width: 98%;
     height: 100%;
+    color: #fff;
     border: 1px solid #c85014;
     background-color: rgba(117,117,117,0.7);
     margin-bottom: 10px;
@@ -641,7 +669,7 @@ iframe {
     
 }
 
-.fa-map-pin {
+.fa {
     color: #c85014;
 }
 
