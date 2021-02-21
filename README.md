@@ -21,15 +21,21 @@ To find relevant information after arriving from a search or referral link to th
 * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content relevant to me.
 * As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted.
 * As a First Time Visitor, I want to find information about different membership and pricing. 
-* As a First Time Visitor, I want to find out what is demographics of the gym goers.   
+* As a First Time Visitor, I want to find out what is demographics of the gym goers. 
+
+  ![pricing](/assets/images/pricing.png) 
 
 **Returning Visitor Goals**  
 * As a Returning Visitor, I want to find the best way to get in contact with the gym.
 * As a Returning Visitor, I want to find information where to park if arriving by car.
 * As a Returning Visitor, I want to find the best membership option meet my requirements.  
 
+![info](/assets/images/info.png)
+
 **Frequent User Goals**  
 * As a Returning Visitor, I want book my classes using via the website.
+![book a class](/assets/images/book-a-class.png)
+
 
 
 ### **Site Owner Goals:**
@@ -64,7 +70,7 @@ The website consists of 5 separated pages namely index.html, about.html, members
 ### **Wireframes:**
  Wireframing helped me to put together the project without coding a single line.   
  Once the finished wireframes were printed the coding process was very smooth and straightforward.   
- Wireframes are available in [bmpr](/assets/wireframes/MS1-GYM.bmpr) and [pdf](/assets/wireframes/MS1-GYM.pdf) format. 
+ Wireframes are available in [bmpr](https://syler11.github.io/ms1-gym/assets/wireframes/MS1-Gym.bmpr) and [pdf](https://syler11.github.io/ms1-gym/assets/wireframes/MS1-Gym.pdf) format. 
 
 ### **Features:**
 **Index**  
