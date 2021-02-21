@@ -110,23 +110,59 @@ The following languages and framework were used to create this project.
 ### **Testing:**
 The main testing took place in Google Chrome and its Developer tool using the Network and Lighhouse options to  
 identify any errors or opportunities to improve performance.    
-After the deployment the website was tested on different screen sizes and in different OS systems.
+After the deployment the website was tested on different screen sizes and in different OS systems.  
 I have asked my wife and few of my friends to test the website and their feedback was taken on board.  
 
 ### **Validation:**  
-Html code was validated by [W3C Markup Validation Service](https://validator.w3.org/)  
-
-![result](/assets/images/HTMLvalidation.png)
+Html pages were validated by [W3C Markup Validation Service](https://validator.w3.org/)  
+1. Index.html  
+![result](/assets/images/validation/html-validation-index.html.png)
+2. Aboutus.html  
+![result](/assets/images/validation/html-validation-aboutus.html.png)
+3. Membership.html  
+![result](/assets/images/validation/html-validation-membership.html.png)
+4. Classes.html  
+![result](/assets/images/validation/html-validation-classes.html.png)
+5. Contact.html  
+![result](/assets/images/validation/html-validation-contact.html.png)
 
 Css code was validate by [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)  
+
+Style.css  
 ![result](/assets/images/CSSvalidation.png)
 
-The website accessibility was checked with [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/).  
+The website accessibility was checked with [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/).
+
 As a result I had to changed the font and background colors to achieve higher contrast to eliminate contast errors.   
 The original orange color (#357464) was changed to (#c85410), grey color (#7d7d7d) was changed to (#757575) and   
 the font color (#fafafa) was changed to (#fff) for better contrast ratio.
+![result](/assets/images/validation/Wave-report.png)
 
 Conclusion: In the future the colors will be checked before the coding would even start. 
+
+**Chrome Lighthouse Test**
+
+1. Opened up my deplpyed webpage in a new incognito tab in Google Chrome.  
+2. I used CTRL+SHIFT+I key command to prompt the Developer Tool.
+3. I navigated to the Lighthouse menu option (usually the option is not visible but clicking on the  >> sign will reveal it)
+4. I select all 5 categories and selected desktop option and repeated steps for all 5 pages
+
+![result](/assets/images/validation/chrome-lighthousetest-desktop-index.html.png)
+![result](/assets/images/validation/chrome-lighthousetest-desktop-aboutus.html.png)
+![result](/assets/images/validation/chrome-lighthousetest-desktop-membership.html.png)
+![result](/assets/images/validation/chrome-lighthousetest-desktop-classes.html.png)
+![result](/assets/images/validation/chrome-lighthousetest-desktop-contact.html.png)
+
+
+5. I select all 5 categories and selected mobile option and repeated steps for all 5 pages
+
+![result](/assets/images/validation/chrome-lighthousetest-mobile-index.html.png)
+![result](/assets/images/validation/chrome-lighthousetest-mobile-aboutus.html.png)
+![result](/assets/images/validation/chrome-lighthousetest-mobile-membership.html.png)
+![result](/assets/images/validation/chrome-lighthousetest-mobile-classes.html.png)
+![result](/assets/images/validation/chrome-lighthousetest-mobile-contact.html.png)
+
+
 
 ### **Deployment:**
 **GitHub Pages**  
@@ -140,13 +176,24 @@ The project was deployed to GitHub Pages using the following steps...
 The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
-**Browser preview**
+**Clone a Repository**  
+1. On GitHub, navigate to the main page of the repository.
+2. Above the list of files, click  Code.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click . To clone the repository using an SSH key,   
+including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click.   
+To clone a repository using GitHub CLI, click Use GitHub CLI, then click.
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory.  
+6. Type git clone, and then paste the URL you copied earlier.  
+7. Press Enter to create your local clone.
+
+**Browser Preview**
 Browser preview was used between commits using the following steps...
 
-1. Open terminal in GitPod 
-2. With Ctrl+C the cursor was prompt
-3. python3 -m http.server command line was used to open up a private port
-4. Once the port was activated the page was opened by clicking on the Open Browser tab
+1. Open terminal in GitPod. 
+2. With Ctrl+C the cursor was prompt.
+3. python3 -m http.server command line was used to open up a private port.
+4. Once the port 8000 was serving the page was opened by clicking on the Open Browser tab.
 
 ### **Bugs:**
 The menu toggler was one area where I spent lot of time to try to find a solution.     
@@ -160,8 +207,10 @@ I researched the topic and read many topics and watched a few Youtube tutorials 
 ### **Credits:**
 Content
 * Logo Linear gradient feature - [Source](https://cssgradient.io/blog/css-gradient-text/)
-* The photos used in this site were obtained from Pexels.com and Icons were obtained from FontAwesome.com  
- Acknowledgements  
+* The photos used in this site were obtained from Pexels.com, Rawpixel.com and Pixabay.com. 
+* Icons were obtained from FontAwesome.com 
+
+Acknowledgements  
 * Photo by Cleyder Duque from Pexels quotes-guy.jpg  
 * Photo by Cliff Booth from Pexels quotes-lady.jpg  
 * Photo by Elly Fairytale from Pexels - fitness-class.jpg  
@@ -182,5 +231,5 @@ Content
 * Photo by Karolina Grabowska from Pexels - junior1.jpg
 
 I received inspiration for this project from my mentor Mo who didn't let me to go   
-the easy way and as a result I feel lot more confident to solve problems.  
+the easy way and as a result I feel lot more confident in the end by solving these problems along the way.   
 Thanks Mo
