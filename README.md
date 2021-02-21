@@ -122,8 +122,8 @@ Css code was validate by [W3C CSS Validation Service](https://jigsaw.w3.org/css-
 ![result](/assets/images/CSSvalidation.png)
 
 The website accessibility was checked with [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/).  
-As a result I had to changed the font and background colors to achieve higher contrast to eliminate contast errors. 
-The original orange color (#357464) was changed to (#c85410), grey color (#7d7d7d) was changed to (#757575) and 
+As a result I had to changed the font and background colors to achieve higher contrast to eliminate contast errors.   
+The original orange color (#357464) was changed to (#c85410), grey color (#7d7d7d) was changed to (#757575) and   
 the font color (#fafafa) was changed to (#fff) for better contrast ratio.
 
 Conclusion: In the future the colors will be checked before the coding would even start. 
