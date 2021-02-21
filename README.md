@@ -76,8 +76,9 @@ Map and transport to help the users to make their first virtual visit.
 The local bus times are also linked for better user experience. 
 
 **About Us**  
-Short description of the gym and its ethos.  
-Progress bar to showcase of the gym's demographics.
+Short description of the gym and its ethos with a video tour.   
+(video is not realted to this business and was taken from Youtube see Credits below)   
+Progress bar to showcase of the gym's demographics.  
 Cards to emphasize the different features of the gym.  
 
 **Membership**  
@@ -86,7 +87,7 @@ By hovering over the price tags the box shadow would increase.
 
 **Classes**  
 Throughout description of the classes, their intensity and schedule.  
-By hovering over the class description the box shadow would increase. 
+By hovering over the class description the box shadow would increase.   
 Book a class modal to make an online booking and downloadable pdf format is also available.
 
 **Contact**  
@@ -229,6 +230,7 @@ Acknowledgements
 * Photo by Bruno Bueno from Pexels - couple2.jpg  
 * Photo by Yan Krukov from Pexels - oap1.jpg  
 * Photo by Karolina Grabowska from Pexels - junior1.jpg
+* Video by Fountain Valley LA Fitness [Youtube.com](https://www.youtube.com/watch?v=Gdf-dxNKKOU)
 
 I received inspiration for this project from my mentor Mo who didn't let me to go   
 the easy way and as a result I feel lot more confident in the end by solving these problems along the way.   
