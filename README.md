@@ -108,7 +108,7 @@ The local bus times are also linked for better user experience.
 The following languages and framework were used to create this project.  
 * HTML5 – provided the main structure of the website.
 * CSS3 – provided the styling of the website and the overall content.
-* Bootstrap 4.6.1 – provided the responsive structure and some other component such as jumbotron, modal, navbar. 
+* Bootstrap 4.6.1 – provided the responsive structure and some other component such as jumbotron, modal, navbarand form. 
 * Balsamiq - development tool was used to create the wireframe for the website. 
 * Git - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * GitHub - GitHub is used to store the projects code after being pushed from Git.
