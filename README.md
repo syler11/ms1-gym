@@ -17,8 +17,8 @@ To find relevant information after arriving from a search or referral link to th
 
 ### **User Stories:**
 **First Time Visitor Goals**  
-* As a First Time Visitor, I want to easily understand the ethos of the gym and what they offer me as client.
 * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content relevant to me.
+* As a First Time Visitor, I want to easily understand the ethos of the gym and what they offer me as client.
 * As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted.
 * As a First Time Visitor, I want to find information about different membership and pricing. 
 * As a First Time Visitor, I want to find out what is demographics of the gym goers. 
@@ -115,6 +115,45 @@ The following languages and framework were used to create this project.
 
 
 ### **Testing:**
+
+**First Time Visitor Goals**  
+* As a First Time Visitor, I want to be able to easily navigate throughout the site to find content relevant to me.  
+The navigation elements can be easily accessed reagrdless of the screen size of the user and navigated between the pages.
+I wanted to customize bootstrap hamburger icon what proved to be challenging so I have coded my very own hamburger icon and customized as I wanted.  
+With this customization I have overcome some other issues such as the bootstrap button was sliding horizontally as clicked  
+* As a First Time Visitor, I want to easily understand the ethos of the gym and what they offer me as client.
+The main page and also the about page give an insight of the first time users what the gym has to offer  
+and who are the people both owners and member of this gym. 
+* As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted.
+Recommendation of other people are very important therefore the testimonials on the main page will build trust and also gives opportunity  
+to the first time user to identify channels to find out more information about the gym from external sources. (Trustpilot, Facebook)
+* As a First Time Visitor, I want to find information about different membership and pricing.
+One of the most crucial point of the decision making process is the price point of the gym what has to be easily understand.
+The membership page easily explains and differentiate between the available options.   
+* As a First Time Visitor, I want to find out what is demographics of the gym goers. 
+About page progress bar feature gives an insight to the visitor who are the people are visiting the gym.  
+For many people to joining a new social circle such as a gym can be intimidating so giving them an opportunty to relate can make their decision easier. 
+
+**Returning Visitor Goals**  
+* As a Returning Visitor, I want to find the best way to get in contact with the gym.  
+
+A contact page can be accessed from the main page which is the native go to page with relevant information about the gym location,  
+accessibility, opening times and contact details.
+* As a Returning Visitor, I want to find information where to park if arriving by car.  
+Returning visitors who have already made contact with the gym or have completed their first  
+free session might want to find out the best possible way to par their car which is closest and cheapest way for them.  
+* As a Returning Visitor, I want to find the best membership option meet my requirements.  
+The main audience of the gym's client base are active, working age people who are part more than social and professional network.  
+One of the most common question from other people is how much the gym cost.
+At the same time usually people pair up after a while to make sure they also have fun.   
+The membership page contains information which is outwidth the member current membership option.   
+
+**Frequent User Goals**  
+* As a Returning Visitor, I want book my classes using via the website.  
+```diff
+A booking modal was completed on the on the Classes page for targeting returning and especially frequent users to book the class online. 
+```
+
 The main testing took place in Google Chrome and its Developer tool using the Network and Lighhouse options to  
 identify any errors or opportunities to improve performance.    
 After the deployment the website was tested on different screen sizes and in different OS systems.  
