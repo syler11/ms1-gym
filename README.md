@@ -9,14 +9,14 @@ The gym offers extensive variety of classes and gym space for all age group, gen
 The gym is easily accessible and located in the City Centre. 
 The website offers several functionalities to retain existing client and gain new ones.
 
-### **Project Goals:** 
+## **Project Goals:** 
 The project helps me to showcase my knowledge of HTML and CSS and Bootstrap. 
 
-### **User Goals:** 
+## **User Goals:** 
 To find relevant information after arriving from a search or referral link to this website. 
 
-### **User Stories:**
-**First Time Visitor Goals**  
+## **User Stories:**
+### **First Time Visitor Goals**  
 * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content relevant to me.
 * As a First Time Visitor, I want to easily understand the ethos of the gym and what they offer me as client.
 * As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted.
@@ -25,55 +25,55 @@ To find relevant information after arriving from a search or referral link to th
 
   ![pricing](/assets/images/pricing.png) 
 
-**Returning Visitor Goals**  
+### **Returning Visitor Goals**  
 * As a Returning Visitor, I want to find the best way to get in contact with the gym.
 * As a Returning Visitor, I want to find information where to park if arriving by car.
 * As a Returning Visitor, I want to find the best membership option meet my requirements.  
 
 ![info](/assets/images/info.png)
 
-**Frequent User Goals**  
+### **Frequent User Goals**  
 * As a Returning Visitor, I want book my classes using via the website.
 ![book a class](/assets/images/book-a-class.png)
 
 
 
-### **Site Owner Goals:**
+## **Site Owner Goals:**
 The site owner would like to get more business by exposing the users to this content.   
 Also this surface is retaining existing client providing information and facilities to them. 
 
-### **User Requirements and Expectations:**
+## **User Requirements and Expectations:**
 Users have a set standard what they expect to find when they arrive to a website e.g. navigation, contact page with contact details and so on.   
 These needs and requirements were met throughout the website design. 
 
-### **Design Choices:**
+## **Design Choices:**
 Design choices were made to have high usability of website.  
 Classes were structured in table form as usually expected for such information. 
 Membership choices were categorized to address all age groups.
 
-### **Colors:**
-**Background colours**
+## **Colors:**
+### **Background colours**
 * #e35b17 RGB(200, 80, 20)
 * ##7d7d7d RGB(117, 117, 117)  
 
-**Font colours**  
+### **Font colours**  
 * #fff as the default text color 
 
 
-### **Fonts:**
+## **Fonts:**
 My font family choice is “Montserrat” with Sans Serif as a fall back what was taken from [Google Font](https://fonts.google.com/specimen/Montserrat?query=mon&preview.text_type=custom).
 
-### **Structure:**
+## **Structure:**
 The website consists of 5 separated pages namely index.html, about.html, membership.html, classes.html and contact.html.
 
 
-### **Wireframes:**
+## **Wireframes:**
  Wireframing helped me to put together the project without coding a single line.   
  Once the finished wireframes were printed the coding process was very smooth and straightforward.   
  Wireframes are available in [bmpr](https://syler11.github.io/ms1-gym/assets/wireframes/MS1-Gym.bmpr) and [pdf](https://syler11.github.io/ms1-gym/assets/wireframes/MS1-Gym.pdf) format. 
 
-### **Features:**
-**Index**  
+## **Features:**
+### **Index**  
 The user by clicking on the Sign Up button is able to fill up a from and send it to the gym.  
 With the sent information the gym would be able to reply and discuss a free introductory session with the new potential client.  
 The first section will give a short insight what the gym can offer.  
@@ -81,22 +81,22 @@ User testimonials to help first visitor to build trust.
 Map and transport to help the users to make their first virtual visit. 
 The local bus times are also linked for better user experience. 
 
-**About Us**  
+### **About Us** 
 Short description of the gym and its ethos with a video tour.   
-(video is not realted to this business and was taken from Youtube see Credits below)   
+(video is not related to this business and was taken from Youtube see Credits below)   
 Progress bar to showcase of the gym's demographics.  
 Cards to emphasize the different features of the gym.  
 
-**Membership**  
+### **Membership**  
 Pricing description as passes and monthly plans with pictures.
 By hovering over the price tags the box shadow would increase. 
 
-**Classes**  
+### **Classes**  
 Throughout description of the classes, their intensity and schedule.  
 By hovering over the class description the box shadow would increase.   
 Book a class modal to make an online booking and downloadable pdf format is also available.
 
-**Contact**  
+### **Contact**  
 Contact form to send direct message from the website.  
 General contact information and opening times.  
 Map and transport option repeated for a second virtual journey.  
@@ -104,26 +104,26 @@ The local bus times are also linked for better user experience.
 
 
 
-### **Technologies used:**
+## **Technologies used:**
 The following languages and framework were used to create this project.  
 * HTML5 – provided the main structure of the website.
 * CSS3 – provided the styling of the website and the overall content.
-* Bootstrap 4.6.1 – provided the responsive structure and some other component such as jumbotron, modal, navbarand form. 
+* Bootstrap 4.6.1 – provided the responsive structure and some other component such as jumbotron, modal, navbar and form. 
 * Balsamiq - development tool was used to create the wireframe for the website. 
 * Git - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * GitHub - GitHub is used to store the projects code after being pushed from Git.
 
 
-### **Testing:**
+## **Testing:**
 
-**First Time Visitor Goals**  
+### **First Time Visitor Goals**  
 * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content relevant to me.  
-The navigation elements can be easily accessed reagrdless of the screen size of the user and navigated between the pages.
-I wanted to customize bootstrap hamburger icon what proved to be challenging so I have coded my very own hamburger icon and customized as I wanted.  
-With this customization I have overcome some other issues such as the bootstrap button was sliding horizontally as clicked  
-* As a First Time Visitor, I want to easily understand the ethos of the gym and what they offer me as client.
+The navigation elements can be easily accessed regardless of the screen size of the user and navigated between the pages.  
+I wanted to customize bootstrap hamburger icon what proved to be challenging so I have coded my very own hamburger icon and customized as I wanted.    
+With this customization I have overcome some other issues such as the bootstrap button was sliding horizontally when clicked on.
+* As a First Time Visitor, I want to easily understand the ethos of the gym and what they offer me as client.  
 The main page and also the about page give an insight of the first time users what the gym has to offer  
-and who are the people both owners and member of this gym. 
+and who are the people both owners and member of this gym.
 * As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted.
 Recommendation of other people are very important therefore the testimonials on the main page will build trust and also gives opportunity  
 to the first time user to identify channels to find out more information about the gym from external sources. (Trustpilot, Facebook)
@@ -132,9 +132,9 @@ One of the most crucial point of the decision making process is the price point 
 The membership page easily explains and differentiate between the available options.   
 * As a First Time Visitor, I want to find out what is demographics of the gym goers. 
 About page progress bar feature gives an insight to the visitor who are the people are visiting the gym.  
-For many people to joining a new social circle such as a gym can be intimidating so giving them an opportunty to relate can make their decision easier. 
+For many people to joining a new social circle such as a gym can be intimidating so giving them an opportunity to relate can make their decision easier. 
 
-**Returning Visitor Goals**  
+### **Returning Visitor Goals**  
 * As a Returning Visitor, I want to find the best way to get in contact with the gym.  
 
 A contact page can be accessed from the main page which is the native go to page with relevant information about the gym location,  
@@ -148,18 +148,16 @@ One of the most common question from other people is how much the gym cost.
 At the same time usually people pair up after a while to make sure they also have fun.   
 The membership page contains information which is outwidth the member current membership option.   
 
-**Frequent User Goals**  
+### **Frequent User Goals**  
 * As a Returning Visitor, I want book my classes using via the website.  
-```diff
 A booking modal was completed on the on the Classes page for targeting returning and especially frequent users to book the class online. 
-```
 
-The main testing took place in Google Chrome and its Developer tool using the Network and Lighhouse options to  
+The main testing took place in Google Chrome and its Developer tool using the Network and Lighthouse options to  
 identify any errors or opportunities to improve performance.    
 After the deployment the website was tested on different screen sizes and in different OS systems.  
 I have asked my wife and few of my friends to test the website and their feedback was taken on board.  
 
-### **Validation:**  
+## **Validation:**  
 Html pages were validated by [W3C Markup Validation Service](https://validator.w3.org/)  
 1. Index.html  
 ![result](/assets/images/validation/html-validation-index.html.png)
@@ -179,16 +177,16 @@ Style.css
 
 The website accessibility was checked with [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/).
 
-As a result I had to changed the font and background colors to achieve higher contrast to eliminate contast errors.   
+As a result, I had to change the font and background colors to achieve higher contrast to eliminate contrast errors.   
 The original orange color (#357464) was changed to (#c85410), grey color (#7d7d7d) was changed to (#757575) and   
 the font color (#fafafa) was changed to (#fff) for better contrast ratio.
 ![result](/assets/images/validation/Wave-report.png)
 
 Conclusion: In the future the colors will be checked before the coding would even start. 
 
-**Chrome Lighthouse Test**
+### **Chrome Lighthouse Test**
 
-1. Opened up my deplpyed webpage in a new incognito tab in Google Chrome.  
+1. Opened up my deployed webpage in a new incognito tab in Google Chrome.  
 2. I used CTRL+SHIFT+I key command to prompt the Developer Tool.
 3. I navigated to the Lighthouse menu option (usually the option is not visible but clicking on the  >> sign will reveal it)
 4. I select all 5 categories and selected desktop option and repeated steps for all 5 pages
@@ -210,8 +208,8 @@ Conclusion: In the future the colors will be checked before the coding would eve
 
 
 
-### **Deployment:**
-**GitHub Pages**  
+## **Deployment:**
+### **GitHub Pages**  
 The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the GitHub Repository  
@@ -222,7 +220,7 @@ The project was deployed to GitHub Pages using the following steps...
 The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
-**Clone a Repository**  
+### **Clone a Repository**  
 1. On GitHub, navigate to the main page of the repository.
 2. Above the list of files, click  Code.
 3. To clone the repository using HTTPS, under "Clone with HTTPS", click . To clone the repository using an SSH key,   
@@ -233,7 +231,7 @@ To clone a repository using GitHub CLI, click Use GitHub CLI, then click.
 6. Type git clone, and then paste the URL you copied earlier.  
 7. Press Enter to create your local clone.
 
-**Browser Preview**
+### **Browser Preview**
 Browser preview was used between commits using the following steps...
 
 1. Open terminal in GitPod. 
@@ -241,7 +239,7 @@ Browser preview was used between commits using the following steps...
 3. python3 -m http.server command line was used to open up a private port.
 4. Once the port 8000 was serving the page was opened by clicking on the Open Browser tab.
 
-### **Bugs:**
+## **Bugs:**
 The menu toggler was one area where I spent lot of time to try to find a solution.     
 My primary goal was to give a custom color scheme to the menu items and to the toggler too.   
 After my second session with Mo (mentor). I decided to do this icon from scratch rather using the Bootstrap predefined icon.  
@@ -250,7 +248,9 @@ With that being done I was able to fully customize all the elements I wanted.
 Embedding images in div container and make them responsive was very time consuming in the beginning  of the task.  
 I researched the topic and read many topics and watched a few Youtube tutorials and I was able to resolve the issue fully. 
 
-### **Credits:**
+Also I had to refer back and research  bit more how to center elements both vertically and horizontally.
+
+## **Credits:**
 Content
 * Logo Linear gradient feature - [Source](https://cssgradient.io/blog/css-gradient-text/)
 * The photos used in this site were obtained from Pexels.com, Rawpixel.com and Pixabay.com. 
@@ -277,6 +277,6 @@ Acknowledgements
 * Photo by Karolina Grabowska from Pexels - junior1.jpg
 * Video by Fountain Valley LA Fitness [Youtube.com](https://www.youtube.com/watch?v=Gdf-dxNKKOU)
 
-I received inspiration for this project from my mentor Mo who didn't let me to go   
+I received inspiration for this project from my mentor Mo who did not let me to go   
 the easy way and as a result I feel lot more confident in the end by solving these problems along the way.   
 Thanks Mo
